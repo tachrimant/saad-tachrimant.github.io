@@ -1,0 +1,7 @@
+@media (prefers-color-scheme: dark) {
+  body { background: #0b0f14; }
+  .masthead, .page__footer { background: #0b0f14; }
+  .page__content, .archive, .sidebar, .page__inner-wrap { color: #e6edf3; }
+  a { color: #7aa2ff; }
+  .greedy-nav a, .greedy-nav .site-title { color: #e6edf3; }
+}
