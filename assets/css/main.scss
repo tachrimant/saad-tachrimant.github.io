@@ -1,7 +1,12 @@
 ---
+# Only the main Sass file needs front matter (the dashes are required)
 ---
 
-@import "minimal-mistakes";
+@charset "utf-8";
+
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
+@import "minimal-mistakes"; // main partials
+
 
 /* ===== Design System Variables ===== */
 :root {
@@ -70,6 +75,8 @@
   }
 }
 
+/* ===== Custom Portfolio Styles (Override Theme) ===== */
+
 /* ===== Base Styles ===== */
 * {
   box-sizing: border-box;
@@ -80,17 +87,17 @@ html {
 }
 
 body {
-  background-color: var(--bg-primary);
-  color: var(--text-primary);
+  background-color: var(--bg-primary) !important;
+  color: var(--text-primary) !important;
   transition: background-color var(--transition-base), color var(--transition-base);
   font-weight: 400;
   letter-spacing: 0.3px;
 }
 
 .page__content {
-  max-width: 1100px;
-  margin: 0 auto;
-  padding: 0 2rem;
+  max-width: 1100px !important;
+  margin: 0 auto !important;
+  padding: 0 2rem !important;
 }
 
 a {
