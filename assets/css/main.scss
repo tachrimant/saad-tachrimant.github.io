@@ -335,21 +335,33 @@ p {
 
 /* ===== Expertise Cards ===== */
 /* ===== Expertise Cards (Bootstrap-like grid) ===== */
+/* ===== Core Expertise Grid ===== */
 .expertise-grid {
   display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr)); /* 3 per row */
   gap: 1.25rem;
-  margin-bottom: 3rem;
-
-  /* Desktop: 3 per row */
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-
-  /* Make rows consistent */
+  margin-top: 2rem;
   align-items: stretch;
 }
 
+
+/* ===== Expertise Card ===== */
 .expertise-card {
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(226, 232, 240, 0.18);
+  border-radius: 14px;
+  padding: 1.25rem;
+  box-shadow: var(--shadow-sm);
+  transition: transform var(--transition-base), box-shadow var(--transition-base), border-color var(--transition-base);
   height: 100%;
 }
+
+.expertise-card:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-md);
+  border-color: rgba(37, 99, 235, 0.35);
+}
+
 
 
 /* Tablet: 2 per row */

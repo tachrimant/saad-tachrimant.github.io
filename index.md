@@ -26,7 +26,7 @@ permalink: /
 
 <div class="expertise-section" id="expertise">
 <h2 class="section-title">Core Expertise</h2>
-<div class="cards-grid expertise-grid">
+<div class="expertise-grid">
   <div class="expertise-card backend-card">
     <div class="card-header">
       <span class="card-icon">⚙️</span>
@@ -81,7 +81,7 @@ permalink: /
 
 <div class="featured-section">
 <h2 class="section-title">Featured Projects</h2>
-<div class="cards-grid featured-grid">
+<div class="featured-grid">
   <div class="project-card">
     <div class="project-badge software-badge">Software Systems</div>
     <h3 class="project-title">Quanoni Platform</h3>
