@@ -60,44 +60,22 @@ Use the form below to send me an email. I typically respond within 24 hours.
 
 <form class="contact-form" action="https://formspree.io/f/mknnpddj" method="POST">
   <div class="form-group">
-    <label for="name">Your Name</label>
-    <input type="text" id="name" name="name" required placeholder="John Doe">
+    <label for="name">Name *</label>
+    <input type="text" id="name" name="name" placeholder="Your name" required>
   </div>
 
   <div class="form-group">
-    <label for="email">Your Email</label>
-    <input type="email" id="email" name="email" required placeholder="you@example.com">
+    <label for="email">Email *</label>
+    <input type="email" id="email" name="email" placeholder="your.email@company.com" required>
   </div>
 
   <div class="form-group">
-    <label for="subject">Subject</label>
-    <input type="text" id="subject" name="subject" required placeholder="Project Discussion / Freelance Opportunity">
+    <label for="message">Message *</label>
+    <textarea id="message" name="message" placeholder="Tell me about your project or inquiry..." required></textarea>
   </div>
 
-  <div class="form-group">
-    <label for="context">Brief Context</label>
-    <textarea id="context" name="context" rows="3" placeholder="What's your project about? What are you looking for?"></textarea>
-  </div>
-
-  <div class="form-group">
-    <label for="scope">Expected Scope</label>
-    <input type="text" id="scope" name="scope" placeholder="e.g., Backend APIs, Data Pipeline, Full Stack">
-  </div>
-
-  <div class="form-group">
-    <label for="timeline">Timeline</label>
-    <input type="text" id="timeline" name="timeline" placeholder="e.g., ASAP, 2-4 weeks, 3 months">
-  </div>
-
-  <div class="form-group">
-    <label for="tech">Tech Stack (if known)</label>
-    <textarea id="tech" name="tech" rows="2" placeholder="e.g., Spring Boot, React, PostgreSQL, Kafka"></textarea>
-  </div>
-
-  <div class="form-group">
-    <label for="message">Message</label>
-    <textarea id="message" name="message" rows="5" required placeholder="Tell me more about your project or what you'd like to discuss"></textarea>
-  </div>
+  <button type="submit" class="submit-button">Send Message</button>
+</form>
 
   <button type="submit" class="submit-button">Send Message</button>
 </form>
