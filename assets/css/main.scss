@@ -89,6 +89,18 @@ body {
   padding: 0 2rem !important;
 }
 
+@media (min-width: 1400px) {
+  .page__content {
+    max-width: 1600px !important;
+  }
+}
+
+@media (min-width: 1920px) {
+  .page__content {
+    max-width: 1800px !important;
+  }
+}
+
 a {
   transition: color var(--transition-fast), opacity var(--transition-fast);
 }
