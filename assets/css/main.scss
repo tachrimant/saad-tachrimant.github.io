@@ -1,0 +1,57 @@
+
+@import "minimal-mistakes";
+
+/* ===== Portfolio layout helpers ===== */
+.mm-grid-3, .mm-grid-2 {
+  display: grid;
+  gap: 1.25rem;
+  margin: 1rem 0 1.5rem;
+}
+.mm-grid-3 { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+.mm-grid-2 { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+
+@media (max-width: 1024px) {
+  .mm-grid-3 { grid-template-columns: 1fr; }
+  .mm-grid-2 { grid-template-columns: 1fr; }
+}
+
+.mm-card {
+  border-radius: 16px;
+  padding: 1.25rem 1.25rem;
+  border: 1px solid rgba(0,0,0,0.08);
+  background: rgba(255,255,255,0.8);
+  box-shadow: 0 8px 30px rgba(0,0,0,0.05);
+}
+
+.mm-card h3 { margin-top: 0; }
+.mm-card--project p { margin-bottom: 0.75rem; }
+
+.mm-btn {
+  display: inline-block;
+  padding: 0.55rem 0.9rem;
+  border-radius: 999px;
+  border: 1px solid rgba(0,0,0,0.12);
+  text-decoration: none;
+  margin-right: 0.5rem;
+}
+.mm-btn--ghost {
+  background: transparent;
+}
+
+/* ===== Dark mode (auto via OS preference) ===== */
+@media (prefers-color-scheme: dark) {
+  body { background: #0b0f14; }
+  .masthead, .page__footer { background: #0b0f14; }
+
+  .page__content, .archive, .sidebar, .page__inner-wrap { color: #e6edf3; }
+  a { color: #7aa2ff; }
+
+  .mm-card {
+    background: rgba(13, 17, 23, 0.75);
+    border: 1px solid rgba(255,255,255,0.10);
+    box-shadow: none;
+  }
+  .mm-btn {
+    border: 1px solid rgba(255,255,255,0.18);
+  }
+}

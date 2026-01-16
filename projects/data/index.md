@@ -9,4 +9,4 @@ permalink: /projects/data/
 
 ## THERMODSET (Dataset Engineering)
 Anomaly-free thermal dataset for hot climate regions, with rigorous preprocessing for missing values and outliers, and reproducible pipelines.  
-→ [Read more](/projects/data/thermodset/)
+→ [Read more]({{ site.baseurl }}/projects/data/thermodset/)

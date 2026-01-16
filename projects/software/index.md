@@ -9,10 +9,10 @@ permalink: /projects/software/
 ## Quanoni Platform
 “InDrive for lawyers”: urgent/scheduled consultations, AI-based case routing, Kafka distribution, WhatsApp notifications, payments.  
 Live: https://quanoni.com/  
-→ [Read more](/projects/software/quanoni/)
+→ [Read more]({{ site.baseurl }}/projects/software/quanoni/)
 
 ## EngFlexy Platform
 English learning platform: level test, dynamic scheduling for individual/group sessions, professor rating and compensation logic.  
 Live: https://engflexy.com/  
-→ [Read more](/projects/software/engflexy/)
+→ [Read more]({{ site.baseurl }}/projects/software/engflexy/)
 

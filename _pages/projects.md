@@ -6,7 +6,7 @@ permalink: /projects/
 
 Browse by area:
 
-- [Software Systems](/projects/software/)
-- [AI & Applied ML](/projects/ai/)
-- [Data Engineering & Research](/projects/data/)
+- [Software Systems]( {{ site.baseurl }}/projects/software/)
+- [AI & Applied ML]({{ site.baseurl }}/projects/ai/)
+- [Data Engineering & Research]({{ site.baseurl }}/projects/data/)
 

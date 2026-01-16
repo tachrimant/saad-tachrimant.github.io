@@ -9,4 +9,4 @@ permalink: /projects/ai/
 
 ## Peer-to-Peer Thermal Forecasting (Raspberry Pi + Sensors)
 Two-stage forecasting (minute/hour) with reconciliation, personalized models per node, edge experimentation, and InfluxDB monitoring.  
-→ [Read more](/projects/ai/p2p-thermal)
+→ [Read more]({{ site.baseurl }}/projects/ai/p2p-thermal)
