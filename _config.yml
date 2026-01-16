@@ -38,7 +38,10 @@ timezone: Africa/Casablanca
 
 include:
   - _pages
-
+head:
+  - /assets/css/custom.css
+after_footer_scripts:
+  - /assets/css/custom.css
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
