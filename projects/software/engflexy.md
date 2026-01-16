@@ -1,7 +1,8 @@
 ---
-layout: default
+layout: single
 title: EngFlexy Platform
 category: Software Systems
+permalink: /projects/software/engflexy/
 tags: [Spring Boot, Angular, PostgreSQL, Scheduling, Education]
 ---
 

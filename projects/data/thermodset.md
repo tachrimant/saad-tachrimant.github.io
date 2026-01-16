@@ -1,6 +1,7 @@
 ---
-layout: default
+layout: single
 title: THERMODSET Dataset
+permalink: /projects/data/thermodset/
 category: Data Engineering & Research
 tags: [Data Engineering, Time-Series, Anomaly Detection, Imputation, Reproducibility]
 ---

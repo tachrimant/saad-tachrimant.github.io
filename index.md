@@ -18,19 +18,19 @@ I build and maintain production-grade backend systems, data pipelines, and appli
 ## Featured projects
 - **Quanoni Platform** — “InDrive for lawyers”: urgent/scheduled consultations, AI routing, notifications (Kafka/WhatsApp), payments.  
   Live: https://quanoni.com/  
-  → Details: [Quanoni Platform](projects/software/quanoni.html)
+  → Details: [Quanoni Platform](projects/software/quanoni/)
 
 - **EngFlexy Platform** — English learning platform: level test, dynamic scheduling, group sessions, rating-based compensation.  
   Live: https://engflexy.com/  
-  → Details: [EngFlexy](projects/software/engflexy.html)
+  → Details: [EngFlexy](projects/software/engflexy/)
 
 - **Peer-to-Peer Thermal Forecasting (Raspberry Pi + Sensors)** — two-stage forecasting (minute/hour) with reconciliation, on-device learning, InfluxDB monitoring.  
-  → Details: [P2P Thermal Forecasting](projects/ai/p2p-thermal.html)
+  → Details: [P2P Thermal Forecasting](projects/ai/p2p-thermal/)
 
 ## Browse by area
-- [Software Systems](projects/software/index.html)
-- [AI & Applied ML](projects/ai/index.html)
-- [Data Engineering & Research](projects/data/index.html)
+- [Software Systems](projects/software/)
+- [AI & Applied ML](projects/ai/)
+- [Data Engineering & Research](projects/data/)
 
 ## Availability
 Open to **remote freelance missions**, preferably long-running, scheduled outside 9–5.

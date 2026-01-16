@@ -1,7 +1,8 @@
 ---
-layout: default
+layout: single
 title: Quanoni Platform
 category: Software Systems
+permalink: /projects/software/quanoni/
 tags: [Spring Boot, Angular, Kafka, PostgreSQL, AI, Payments]
 ---
 

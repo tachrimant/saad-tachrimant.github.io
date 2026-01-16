@@ -1,17 +1,12 @@
 ---
+title: Projects
+layout: single
 permalink: /projects/
-title: "Projects"
 ---
 
-# Projects
+Browse by area:
 
-Browse projects by area:
+- [Software Systems](/projects/software/)
+- [AI & Applied ML](/projects/ai/)
+- [Data Engineering & Research](/projects/data/)
 
-- **[Software Systems](software/index.html)**  
-  Production platforms and backend-heavy systems (APIs, microservices, messaging, payments).
-
-- **[AI & Applied ML](ai/index.html)**  
-  Forecasting, anomaly detection, edge/IoT experimentation, and ML integration.
-
-- **[Data Engineering & Research](data/index.html)**  
-  Dataset engineering, preprocessing pipelines, reproducibility, and research-enabled tooling.

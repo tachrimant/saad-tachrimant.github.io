@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: single
 title: Peer-to-Peer Thermal Forecasting (Edge AI)
 category: AI & Applied ML
 tags: [Time-Series, LSTM, Edge AI, IoT, InfluxDB, Distributed Learning]
