@@ -55,11 +55,13 @@ after_footer_scripts:
 #   - vendor/ruby/
 
 # Plugins (previously gems:)
-plugins:
-  - jekyll-include-cache
-  - jekyll-sitemap
-  - jekyll-gist
-  - jemoji
+#plugins:
+  #- jekyll-paginate
+  #- jekyll-sitemap
+  #- jekyll-gist
+  #- jekyll-feed
+  #- jemoji
+  #- jekyll-include-cache
 
 author:
   name   : "Saad Tachrimant"
