@@ -228,20 +228,20 @@ p {
 }
 
 .hero-subtitle {
-  font-size: 1.25rem;
-  color: var(--text-secondary);
-  margin: 1.5rem 0;
-  font-weight: 125rem;
+  font-size: 1.125rem;
   color: var(--text-secondary);
   margin: 1rem 0;
   font-weight: 400;
-  animation: fadeIn 0.6
+  animation: fadeIn 0.6s ease-out 0.2s both;
+}
+
+.hero-meta {
   display: flex;
   justify-content: center;
   gap: 1rem;
   flex-wrap: wrap;
   margin: 2rem 0;
-  animation: fadeIn 0.8s ease-out 0.3s both;
+  animation: fadeIn 0.6s ease-out 0.3s both;
 }
 
 .meta-badge {
@@ -290,13 +290,7 @@ p {
 
 /* ===== Card Components ===== */
 .card {
-  padding: 2rem;
-  border-radius: 12px;
-  background: var(--bg-primary);
-  border: 1px solid var(--border-color);
-  box-shadow: var(--shadow-sm);
-  transition: all var(--transition-base);
-}1.5rem;
+  padding: 1.5rem;
   border-radius: 12px;
   background: var(--bg-primary);
   border: 1px solid var(--border-color);
@@ -307,21 +301,14 @@ p {
 .card:hover {
   box-shadow: var(--shadow-md);
   border-color: var(--border-color);
-  transform: translateY(-2pxat(auto-fit, minmax(280px, 1fr));
-  gap: 2rem;
-  margin-bottom: 4rem;
+  transform: translateY(-2px);
 }
 
-.expertise-card {
-  @extend .card-elevated;
-  display: flex;
-  flex-direction: column;
-  padding: 2.5rem;
-  position: relative;
-  overflow: hidden;
-}
-
-.expert1.5rem;
+/* ===== Expertise Cards ===== */
+.expertise-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
   margin-bottom: 3rem;
 }
 
@@ -346,31 +333,18 @@ p {
 }
 
 .expertise-card:hover::before {
-  opacity: 1
-  height: 60px;
+  opacity: 1;
+}
+
+.card-header {
   display: flex;
   align-items: center;
-  justify-content: center;
-  background: var(--bg-secondary);
-  border-radius: 12px;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
 }
 
-.card-header h3 {
-  margin: 0;
-  font-size: 1.35rem;
-  color: var(--text-primary);
-}
-
-.card-content p {
-  margin: 0 0 1.25rem;
-  line-height: 1.7;
-}
-
-.tech-stack {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.6rem;
-}rem;
+.card-icon {
+  font-size: 2rem;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -383,12 +357,12 @@ p {
 .card-header h3 {
   margin: 0;
   font-size: 1.125rem;
-  font-weight: 600
-.tech-tag:hover {
-  background: var(--bg-hover);
-  border-color: var(--primary);
+  font-weight: 600;
+  color: var(--text-primary);
 }
-rem;
+
+.card-content p {
+  margin: 0 0 1rem;
   line-height: 1.6;
   font-size: 0.9375rem;
 }
@@ -407,14 +381,29 @@ rem;
   border-radius: 6px;
   font-size: 0.8125rem;
   font-weight: 400;
-  color: var(--text-second
-  display: inline-block;
-  padding: 0.5rem 1rem;
-  border-radius: 6px;
-  font-size: 0.75rem;00px, 1fr));
+  color: var(--text-secondary);
+}
+
+/* ===== Featured Section ===== */
+.featured-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 1.5rem;
   margin-bottom: 3rem;
-}375rem 0.75rem;
+}
+
+.project-card {
+  @extend .card;
+  display: flex;
+  flex-direction: column;
+  padding: 1.5rem;
+  height: 100%;
+  position: relative;
+}
+
+.project-badge {
+  display: inline-block;
+  padding: 0.375rem 0.75rem;
   border-radius: 6px;
   font-size: 0.75rem;
   font-weight: 500;
@@ -436,9 +425,11 @@ rem;
 
 .ai-badge {
   background: rgba(139, 92, 246, 0.1);
-  color: var(--accent
-  margin: 0 0 1.5rem;
-  color: var(--125rem;
+  color: var(--accent);
+}
+
+.project-title {
+  font-size: 1.125rem;
   font-weight: 600;
   margin: 0 0 0.75rem;
   color: var(--text-primary);
@@ -449,13 +440,13 @@ rem;
   margin: 0 0 1rem;
   color: var(--text-secondary);
   line-height: 1.6;
-  font-size: 0.937
-.project-tech span {
-  display: inline-block;
-  padding: 0.35rem 0.8rem;
-  background: var(--bg-secondary);
-  border-radius: 6px;
-  font-si5rem;
+  font-size: 0.9375rem;
+}
+
+.project-tech {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
   margin: 1rem 0;
 }
 
@@ -465,8 +456,13 @@ rem;
   background: var(--bg-secondary);
   border-radius: 6px;
   font-size: 0.8125rem;
-  font-weight: 4x solid var(--border-color);
-}0.75rem;
+  font-weight: 400;
+  color: var(--text-secondary);
+}
+
+.project-links {
+  display: flex;
+  gap: 0.75rem;
   margin-top: 1rem;
   padding-top: 1rem;
   border-top: 1px solid var(--border-color);
@@ -487,25 +483,14 @@ rem;
 }
 
 .project-link:hover {
-  background: var(--bg-tertiary)ection ===== */
+  background: var(--bg-tertiary);
+  border-color: var(--primary);
+}
+
+/* ===== CTA Section ===== */
 .cta-section {
   text-align: center;
-  padding: 4rem 2rem;
-  background: linear-gradient(135deg, rgba(99, 102, 241, 0.1) 0%, rgba(139, 92, 246, 0.1) 100%);
-  border-radius: 20px;
-  margin: 4rem 0 0;
-  border: 1px solid var(--border-color);
-}
-
-.cta-section h2 {
-  font-size: 2rem;
-  margin-bottom: 1rem;
-  color: var(--text-primary);
-}
-
-.cta-section p {
-  font-size: 1.1rem;
-  margin-bo3rem 2rem;
+  padding: 3rem 2rem;
   background: var(--bg-secondary);
   border-radius: 12px;
   margin: 3rem 0 0;
@@ -521,10 +506,10 @@ rem;
 
 .cta-section p {
   font-size: 1rem;
-  margin-bottom: 1.5mary);
-  text-decoration: none;
-  font-weight: 600;
-  transition: all var(--transition-fast);
+  margin-bottom: 1.5rem;
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .social-links a:hover {
@@ -566,7 +551,7 @@ rem;
 }
 
 .project-category-card {
-  @extend .card-elevated;
+  @extend .card;
   display: flex;
   flex-direction: column;
   padding: 2.5rem;
@@ -888,15 +873,7 @@ rem;
 
 /* ===== Contact Form ===== */
 .contact-form {
-  max-width: 650px;
-  margin: 3rem auto;
-  padding: 2.5rem;
-  background: var(--bg-secondary);
-  border: 1px solid var(--border-color);
-  border-radius: 12px;
-  box-shadow: var(--shadow-sm);
-}
-00px;
+  max-width: 600px;
   margin: 2rem auto;
   padding: 2rem;
   background: var(--bg-primary);
@@ -961,7 +938,15 @@ rem;
 }
 
 .submit-button:hover {
-  background: var(--primary-dark
+  background: var(--primary-dark);
+}
+
+/* ===== Error Page (404) ===== */
+.error-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 70vh;
   text-align: center;
 }
 
