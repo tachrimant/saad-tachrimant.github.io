@@ -1,78 +1,102 @@
 
 @import "minimal-mistakes";
 
-/* ===== Landing page (SaaS style) ===== */
-.lp-section { margin: 2.5rem 0; padding: 2.5rem 0; border-top: 1px solid rgba(0,0,0,0.06); }
-.lp-section:first-of-type { border-top: 0; padding-top: 1.5rem; }
+/* ===== Notion-style calm layout ===== */
 
-.lp-title { font-size: 1.8rem; margin: 0 0 .5rem; }
-.lp-subtitle { max-width: 70ch; opacity: .85; margin-bottom: 1.5rem; }
-
-.lp-section-head { display: flex; align-items: baseline; justify-content: space-between; gap: 1rem; }
-.lp-link { text-decoration: none; font-weight: 600; }
-
-.lp-grid { display: grid; gap: 1.25rem; }
-.lp-grid--3 { grid-template-columns: repeat(3, minmax(0, 1fr)); }
-.lp-grid--2 { grid-template-columns: repeat(2, minmax(0, 1fr)); }
-
-@media (max-width: 1024px) {
-  .lp-grid--3, .lp-grid--2 { grid-template-columns: 1fr; }
+.page__content {
+  max-width: 860px;
 }
 
-.lp-card {
-  border-radius: 18px;
-  padding: 1.25rem 1.25rem;
-  background: rgba(255,255,255,0.9);
-  border: 1px solid rgba(0,0,0,0.08);
-  box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+.page__content p, .page__content li, .page__content td {
+  line-height: 1.75;
+  font-size: 1.02rem;
 }
 
-.lp-card-top { display: flex; justify-content: space-between; align-items: center; gap: 1rem; }
-.lp-badge {
-  font-size: .78rem;
-  padding: .25rem .6rem;
-  border-radius: 999px;
+.page__content h1 {
+  font-size: 2.1rem;
+  letter-spacing: -0.02em;
+  margin-bottom: 0.65rem;
+}
+
+.page__content h2 {
+  font-size: 1.45rem;
+  letter-spacing: -0.01em;
+  margin-top: 2.2rem;
+  padding-top: 1.2rem;
+  border-top: 1px solid rgba(0,0,0,0.08);
+}
+
+/* Make horizontal rule subtle */
+.page__content hr {
+  border: 0;
+  height: 1px;
+  background: rgba(0,0,0,0.08);
+  margin: 1.6rem 0;
+}
+
+/* ===== Notion-like tables ===== */
+.page__content table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
   border: 1px solid rgba(0,0,0,0.10);
-  opacity: .85;
+  border-radius: 14px;
+  overflow: hidden;
+  background: rgba(255,255,255,0.85);
+  box-shadow: 0 8px 28px rgba(0,0,0,0.04);
 }
 
-.lp-actions { margin-top: 1rem; display: flex; gap: .6rem; flex-wrap: wrap; }
+.page__content thead th {
+  font-weight: 700;
+  background: rgba(0,0,0,0.03);
+}
 
-.lp-btn {
-  display: inline-block;
-  padding: .58rem .95rem;
-  border-radius: 999px;
-  border: 1px solid rgba(0,0,0,0.12);
+.page__content th, .page__content td {
+  padding: 12px 14px;
+  vertical-align: top;
+  border-bottom: 1px solid rgba(0,0,0,0.08);
+}
+
+.page__content tr:last-child td {
+  border-bottom: 0;
+}
+
+/* Improve link appearance inside tables */
+.page__content table a {
   text-decoration: none;
   font-weight: 600;
 }
-
-.lp-btn--ghost { background: transparent; }
-
-.lp-cta {
-  border-radius: 22px;
-  padding: 1.6rem;
-  border: 1px solid rgba(0,0,0,0.08);
-  background: linear-gradient(180deg, rgba(255,255,255,0.9), rgba(255,255,255,0.75));
+.page__content table a:hover {
+  text-decoration: underline;
 }
 
-/* Subtle animation */
-.lp-anim { transition: transform .18s ease, box-shadow .18s ease, border-color .18s ease; }
-.lp-anim:hover { transform: translateY(-3px); box-shadow: 0 14px 40px rgba(0,0,0,0.08); border-color: rgba(0,0,0,0.14); }
+/* ===== Slight “card” feel for sections ===== */
+.page__content > h2 + table,
+.page__content > h2 + p + table {
+  margin-top: 0.9rem;
+}
 
-/* Dark mode */
+/* ===== Dark mode ===== */
 @media (prefers-color-scheme: dark) {
   body { background: #0b0f14; }
   .masthead, .page__footer { background: #0b0f14; }
+
   .page__content, .archive, .sidebar, .page__inner-wrap { color: #e6edf3; }
   a { color: #7aa2ff; }
+  .greedy-nav a, .greedy-nav .site-title { color: #e6edf3; }
 
-  .lp-section { border-top: 1px solid rgba(255,255,255,0.10); }
-  .lp-card {
-    background: rgba(13, 17, 23, 0.75);
+  .page__content h2 { border-top: 1px solid rgba(255,255,255,0.12); }
+  .page__content hr { background: rgba(255,255,255,0.12); }
+
+  .page__content table {
     border: 1px solid rgba(255,255,255,0.12);
+    background: rgba(13, 17, 23, 0.78);
     box-shadow: none;
   }
-  .lp-badge, .lp-btn { border: 1px solid rgba(255,255,255,0.18); }
-  .lp-cta { background: linear-gradient(180deg, rgba(13,17,23,0.9), rgba(13,17,23,0.75)); }
+  .page__content thead th {
+    background: rgba(255,255,255,0.06);
+  }
+  .page__content th, .page__content td {
+    border-bottom: 1px solid rgba(255,255,255,0.10);
+  }
 }
