@@ -148,7 +148,7 @@ h1, h2, h3 {
 .lp-card:hover {
   border-color: var(--border-strong);
   transform: translateY(-2px);
-  transition: transform var(--transition-base), border-color var(--transition-base);
+  transition: transform var(--transition), border-color var(--transition);
 }
 
 .lp-pill {
@@ -181,7 +181,7 @@ h1, h2, h3 {
   font-weight: 650;
   line-height: 1;
   text-decoration: none;
-  transition: transform var(--transition-base), background var(--transition-base), border-color var(--transition-base), color var(--transition-base);
+  transition: transform var(--transition), background var(--transition), border-color var(--transition), color var(--transition);
 }
 
 .lp-btn.primary {
@@ -602,6 +602,51 @@ h1, h2, h3 {
 
 .masthead a { color: var(--text) !important; }
 .masthead a:hover { color: var(--accent-2) !important; }
+
+/* Improve masthead typography & nav contrast */
+.site-title,
+.masthead__menu-item,
+.greedy-nav .visible-links a {
+  color: var(--text) !important;
+}
+
+.site-subtitle,
+.greedy-nav .visible-links a {
+  opacity: 0.92;
+}
+
+.site-subtitle {
+  color: var(--muted-2) !important;
+  font-weight: 650;
+}
+
+.greedy-nav .visible-links a {
+  color: var(--muted) !important;
+  font-weight: 650;
+}
+
+.greedy-nav .visible-links a:hover {
+  color: var(--text) !important;
+}
+
+/* Search field (if enabled) */
+.search-content,
+.search-content .search-input {
+  background: rgba(255, 255, 255, 0.06) !important;
+  color: var(--text) !important;
+  border: 1px solid var(--border) !important;
+  border-radius: 12px !important;
+}
+
+.search-content .search-input::placeholder {
+  color: rgba(231, 238, 252, 0.45) !important;
+}
+
+.search-content .search-input:focus {
+  outline: none;
+  border-color: rgba(96, 165, 250, 0.55) !important;
+  box-shadow: 0 0 0 4px rgba(59, 130, 246, 0.18);
+}
 
 /* Reduce default post chrome spacing on homepage */
 .page__content > hr { display: none; }

@@ -11,7 +11,8 @@ permalink: /
       <p class="lp-kicker">Senior Backend & Data Engineer (Freelance)</p>
       <h1 class="lp-title">Build reliable systems that ship—fast.</h1>
       <p class="lp-subtitle">
-        I help teams deliver production-grade APIs, data pipelines, and ML-powered features—designed for scale, observability, and maintainability.
+        I help teams deliver production-grade APIs, data pipelines, and ML solutions—from model development and hyperparameter tuning to production deployment—designed for scale, observability, and maintainability.
+        <span class="lp-inline-note">Currently pursuing a PhD on decentralized peer-to-peer learning for time-series forecasting.</span>
       </p>
 
       <div class="lp-badges" aria-label="Availability">
@@ -30,6 +31,8 @@ permalink: /
         <span class="lp-trust__item">Python / Data Engineering</span>
         <span class="lp-dot">•</span>
         <span class="lp-trust__item">Kafka / Observability</span>
+        <span class="lp-dot">•</span>
+        <span class="lp-trust__item">Model training / tuning</span>
       </div>
     </div>
 
@@ -44,7 +47,7 @@ permalink: /
       <ul class="lp-checklist">
         <li>API design & implementation (Spring Boot / REST)</li>
         <li>Data pipelines & time-series stacks (ETL, quality, monitoring)</li>
-        <li>ML inference services (forecasting, anomaly detection)</li>
+        <li>ML model development & tuning (forecasting, anomaly detection)</li>
       </ul>
 
       <div class="lp-card__footer">
@@ -59,14 +62,14 @@ permalink: /
 <section class="lp-section" id="services">
   <div class="lp-section__head">
     <h2 class="lp-section__title">Services</h2>
-    <p class="lp-section__subtitle">Deliverables you can ship. Built with pragmatic engineering, not buzzwords.</p>
+    <p class="lp-section__subtitle">Scoping, delivery, and production hardening for backend, data, and ML—so the work is measurable, maintainable, and ready to operate.</p>
   </div>
 
   <div class="lp-grid lp-grid--3">
     <article class="lp-card">
       <div class="lp-card__icon">Backend & APIs</div>
       <h3 class="lp-card__h">Production services</h3>
-      <p class="lp-card__p">Microservices, auth, integrations, migrations, and performance—implemented with clean boundaries and testability.</p>
+      <p class="lp-card__p">Design and delivery of backend services: microservices, authentication/authorization, third‑party integrations, migrations, and performance work—implemented with clean boundaries, tests, and operational readiness.</p>
       <div class="lp-tags">
         <span class="lp-tag">Spring Boot</span>
         <span class="lp-tag">Security</span>
@@ -78,7 +81,7 @@ permalink: /
     <article class="lp-card">
       <div class="lp-card__icon">Data Engineering</div>
       <h3 class="lp-card__h">Pipelines & monitoring</h3>
-      <p class="lp-card__p">Time-series pipelines, ETL/ELT, data quality checks, and observability so you can trust your numbers.</p>
+      <p class="lp-card__p">End‑to‑end data delivery: ETL/ELT pipelines (including time‑series), validation & data-quality checks, and monitoring/observability so stakeholders can trust metrics and analysts can iterate safely.</p>
       <div class="lp-tags">
         <span class="lp-tag">Python</span>
         <span class="lp-tag">ETL</span>
@@ -89,13 +92,14 @@ permalink: /
 
     <article class="lp-card">
       <div class="lp-card__icon">Applied ML</div>
-      <h3 class="lp-card__h">Inference services</h3>
-      <p class="lp-card__p">Forecasting and anomaly detection—from model integration to deployable APIs (edge-friendly when needed).</p>
+      <h3 class="lp-card__h">Modeling to production</h3>
+      <p class="lp-card__p">Full ML lifecycle: feature engineering, model training, evaluation, and hyperparameter search—then packaging the best model into deployable services (batch, real-time, or edge-friendly when needed).</p>
       <div class="lp-tags">
         <span class="lp-tag">Scikit-learn</span>
         <span class="lp-tag">LSTM/GRU</span>
-        <span class="lp-tag">Inference</span>
-        <span class="lp-tag">IoT</span>
+        <span class="lp-tag">Training</span>
+        <span class="lp-tag">Tuning</span>
+        <span class="lp-tag">Tuning</span>
       </div>
     </article>
   </div>
@@ -105,14 +109,14 @@ permalink: /
 <section class="lp-section" id="work">
   <div class="lp-section__head">
     <h2 class="lp-section__title">Selected work</h2>
-    <p class="lp-section__subtitle">A snapshot of systems built across software, data, and applied ML.</p>
+    <p class="lp-section__subtitle">Representative systems shipped end‑to‑end: product backends, data pipelines, and forecasting/anomaly detection work that connects modeling to real-world operations.</p>
   </div>
 
   <div class="lp-grid lp-grid--2">
     <article class="lp-project">
       <div class="lp-project__meta">Software Systems</div>
       <h3 class="lp-project__title">Quanoni Platform</h3>
-      <p class="lp-project__desc">Urgent & scheduled consultations with routing, notifications, and payments integration.</p>
+      <p class="lp-project__desc">End‑to‑end platform for urgent and scheduled consultations, including routing, notifications, and payments integration. Focus on reliability, low-latency user flows, and operational visibility.</p>
       <div class="lp-tags">
         <span class="lp-tag">Spring Boot</span>
         <span class="lp-tag">Angular</span>
@@ -128,7 +132,7 @@ permalink: /
     <article class="lp-project">
       <div class="lp-project__meta">Software Systems</div>
       <h3 class="lp-project__title">EngFlexy Platform</h3>
-      <p class="lp-project__desc">AI-powered level testing with scheduling and instructor compensation logic.</p>
+      <p class="lp-project__desc">Language learning platform with AI-assisted level testing, scheduling workflows, and instructor compensation logic. Delivered the core backend and integrations needed for stable day-to-day operations.</p>
       <div class="lp-tags">
         <span class="lp-tag">Spring Boot</span>
         <span class="lp-tag">PostgreSQL</span>
@@ -144,7 +148,7 @@ permalink: /
     <article class="lp-project">
       <div class="lp-project__meta">AI & ML</div>
       <h3 class="lp-project__title">P2P Thermal Forecasting</h3>
-      <p class="lp-project__desc">Two-stage forecasting with per-node personalization and Raspberry Pi monitoring.</p>
+      <p class="lp-project__desc">Research-driven forecasting system: two-stage prediction with per-node personalization and Raspberry Pi monitoring. Includes training/inference pipelines and evaluation to improve accuracy under edge constraints.</p>
       <div class="lp-tags">
         <span class="lp-tag">Python</span>
         <span class="lp-tag">Time-series</span>
@@ -159,7 +163,7 @@ permalink: /
     <article class="lp-project">
       <div class="lp-project__meta">Data Engineering</div>
       <h3 class="lp-project__title">THERMODSET</h3>
-      <p class="lp-project__desc">Thermal dataset pipeline with reproducible preprocessing and data-quality controls.</p>
+      <p class="lp-project__desc">Production-quality thermal dataset pipeline with reproducible preprocessing, missing-value handling, and data-quality controls—built to support downstream modeling and consistent experimentation.</p>
       <div class="lp-tags">
         <span class="lp-tag">Python</span>
         <span class="lp-tag">DQ</span>
@@ -180,7 +184,7 @@ permalink: /
 <section class="lp-final">
   <div class="lp-final__inner">
     <h2 class="lp-final__title">Need a dependable engineer on your roadmap?</h2>
-    <p class="lp-final__sub">Share your context and constraints. You'll get a clear plan, a scoped proposal, and on-time delivery.</p>
+    <p class="lp-final__sub">Share your goals and constraints. Expect a clear plan, a scoped proposal, and predictable delivery.</p>
     <div class="lp-final__cta">
       <a class="lp-btn lp-btn--primary" href="{{ '/contact/' | relative_url }}">Get in touch</a>
       <a class="lp-btn lp-btn--ghost" href="https://www.linkedin.com/in/saad-tachrimant-a00700177/">LinkedIn</a>
