@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Projects | Saad Tachrimant</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+
+
+</head>
+
+<body class="font-sans bg-coastal-indigo text-coastal-platinum">
+  <!-- Ambient -->
+  <div class="fixed inset-0 -z-10">
+    <div class="absolute inset-0 bg-gradient-to-b from-coastal-indigo via-[#23243a] to-[#181a2b]"></div>
+    <div class="absolute -top-20 -left-20 h-72 w-72 rounded-full bg-coastal-strawberry/18 blur-3xl animate-blob"></div>
+    <div class="absolute top-52 -right-24 h-80 w-80 rounded-full bg-coastal-lavender/16 blur-3xl animate-blob" style="animation-delay:-4s;"></div>
+  </div>
+
+  <div class="mx-auto max-w-6xl px-5 py-8 space-y-10">
+    <header class="flex flex-col gap-4 md:flex-row md:items-center md:justify-between">
+      <a href="index.html" class="flex items-center gap-3">
+        <div class="h-11 w-11 rounded-2xl bg-coastal-strawberry text-white flex items-center justify-center font-extrabold shadow-soft">ST</div>
+        <div class="leading-tight">
+          <p class="text-[11px] font-semibold uppercase tracking-[0.22em] text-coastal-lavender">Backend · Data · ML</p>
+          <h1 class="text-xl md:text-2xl font-extrabold">Saad Tachrimant</h1>
+        </div>
+      </a>
+
+      <nav class="flex flex-wrap items-center gap-2 text-sm font-semibold text-coastal-platinum/80">
+        <a class="px-3 py-2 rounded-xl hover:bg-white/10 transition" href="projects.html">Projects</a>
+        <a class="px-3 py-2 rounded-xl hover:bg-white/10 transition" href="index.html#services">Services</a>
+        <a class="px-3 py-2 rounded-xl hover:bg-white/10 transition" href="contact.html">Contact</a>
+        <a class="px-3 py-2 rounded-xl bg-white/10 hover:bg-white/15 transition" href="https://github.com/tachrimant" target="_blank" rel="noreferrer">GitHub</a>
+        <a class="px-3 py-2 rounded-xl bg-coastal-strawberry hover:bg-coastal-flag text-white transition shadow-soft"
+           href="mailto:tachrimantsaad@gmail.com">Book a call</a>
+      </nav>
+    </header>
+
+    <section class="rounded-3xl border border-white/10 bg-white/5 backdrop-blur p-7 shadow-card">
+      <p class="text-[11px] font-semibold uppercase tracking-[0.18em] text-coastal-lavender">Portfolio</p>
+      <h2 class="mt-1 text-3xl font-extrabold">Projects & case studies</h2>
+      <p class="mt-2 text-coastal-platinum/80 max-w-3xl">
+        A selection of production systems and applied ML work. Each project emphasizes outcomes, architecture decisions,
+        and operational readiness (tests, monitoring, and handoff).
+      </p>
+
+      <!-- Filters (UI only) -->
+      <div class="mt-6 flex flex-wrap gap-2 text-sm font-semibold">
+        <span class="rounded-2xl border border-white/15 bg-white/5 px-4 py-2">All</span>
+        <span class="rounded-2xl border border-white/15 bg-white/5 px-4 py-2">Software</span>
+        <span class="rounded-2xl border border-white/15 bg-white/5 px-4 py-2">Data</span>
+        <span class="rounded-2xl border border-white/15 bg-white/5 px-4 py-2">AI / ML</span>
+        <span class="rounded-2xl border border-white/15 bg-white/5 px-4 py-2">Research</span>
+      </div>
+    </section>
+
+    <section class="grid gap-5 lg:grid-cols-2">
+      <!-- Card template -->
+      <article class="rounded-3xl border border-white/10 bg-white/5 backdrop-blur p-6 shadow-card">
+        <div class="flex items-center justify-between gap-3">
+          <span class="text-xs font-semibold uppercase tracking-[0.18em] text-coastal-lavender">Software systems</span>
+          <span class="rounded-full bg-white/10 px-3 py-1 text-xs font-semibold">Spring Boot · Kafka</span>
+        </div>
+        <h3 class="mt-3 text-xl font-extrabold">Quanoni Platform</h3>
+        <p class="mt-2 text-sm leading-relaxed text-coastal-platinum/80">
+          On-demand & scheduled consultations with routing, notifications, and payments. Focus on reliability,
+          async workflows, and observability.
+        </p>
+        <div class="mt-4 flex flex-wrap gap-2 text-xs font-semibold">
+          <span class="rounded-full bg-white/10 px-3 py-1">PostgreSQL</span>
+          <span class="rounded-full bg-white/10 px-3 py-1">Integrations</span>
+          <span class="rounded-full bg-white/10 px-3 py-1">Runbooks</span>
+        </div>
+        <div class="mt-5 flex flex-wrap gap-3 text-sm font-semibold">
+          <a class="rounded-2xl bg-coastal-strawberry hover:bg-coastal-flag px-4 py-2 text-white transition shadow-soft" href="https://quanoni.com/" target="_blank" rel="noreferrer">Live</a>
+          <a class="rounded-2xl border border-white/15 bg-white/5 hover:bg-white/10 px-4 py-2 transition" href="#">Case study</a>
+        </div>
+      </article>
+
+      <article class="rounded-3xl border border-white/10 bg-white/5 backdrop-blur p-6 shadow-card">
+        <div class="flex items-center justify-between gap-3">
+          <span class="text-xs font-semibold uppercase tracking-[0.18em] text-coastal-lavender">Software systems</span>
+          <span class="rounded-full bg-white/10 px-3 py-1 text-xs font-semibold">Scheduling</span>
+        </div>
+        <h3 class="mt-3 text-xl font-extrabold">EngFlexy Platform</h3>
+        <p class="mt-2 text-sm leading-relaxed text-coastal-platinum/80">
+          Adaptive learning platform with dynamic scheduling and instructor ranking. Emphasis on domain modeling
+          and stable operations under daily usage.
+        </p>
+        <div class="mt-4 flex flex-wrap gap-2 text-xs font-semibold">
+          <span class="rounded-full bg-white/10 px-3 py-1">Spring Boot</span>
+          <span class="rounded-full bg-white/10 px-3 py-1">PostgreSQL</span>
+          <span class="rounded-full bg-white/10 px-3 py-1">Angular</span>
+        </div>
+        <div class="mt-5 flex flex-wrap gap-3 text-sm font-semibold">
+          <a class="rounded-2xl bg-coastal-strawberry hover:bg-coastal-flag px-4 py-2 text-white transition shadow-soft" href="https://engflexy.com/" target="_blank" rel="noreferrer">Live</a>
+          <a class="rounded-2xl border border-white/15 bg-white/5 hover:bg-white/10 px-4 py-2 transition" href="#">Case study</a>
+        </div>
+      </article>
+
+      <article class="rounded-3xl border border-white/10 bg-white/5 backdrop-blur p-6 shadow-card">
+        <div class="flex items-center justify-between gap-3">
+          <span class="text-xs font-semibold uppercase tracking-[0.18em] text-coastal-lavender">AI / ML</span>
+          <span class="rounded-full bg-white/10 px-3 py-1 text-xs font-semibold">Forecasting · Tuning</span>
+        </div>
+        <h3 class="mt-3 text-xl font-extrabold">P2P Thermal Forecasting</h3>
+        <p class="mt-2 text-sm leading-relaxed text-coastal-platinum/80">
+          Two-stage time-series forecasting with evaluation loops and on-device constraints.
+          Includes training workflows, hyperparameter search, and monitoring of predictions.
+        </p>
+        <div class="mt-4 flex flex-wrap gap-2 text-xs font-semibold">
+          <span class="rounded-full bg-white/10 px-3 py-1">Python</span>
+          <span class="rounded-full bg-white/10 px-3 py-1">LSTM/GRU</span>
+          <span class="rounded-full bg-white/10 px-3 py-1">InfluxDB</span>
+          <span class="rounded-full bg-white/10 px-3 py-1">Edge</span>
+        </div>
+        <div class="mt-5 flex flex-wrap gap-3 text-sm font-semibold">
+          <a class="rounded-2xl border border-white/15 bg-white/5 hover:bg-white/10 px-4 py-2 transition" href="#">Case study</a>
+          <a class="rounded-2xl border border-white/15 bg-white/5 hover:bg-white/10 px-4 py-2 transition" href="https://github.com/tachrimant" target="_blank" rel="noreferrer">Code / notes</a>
+        </div>
+      </article>
+
+      <article class="rounded-3xl border border-white/10 bg-white/5 backdrop-blur p-6 shadow-card">
+        <div class="flex items-center justify-between gap-3">
+          <span class="text-xs font-semibold uppercase tracking-[0.18em] text-coastal-lavender">Data engineering</span>
+          <span class="rounded-full bg-white/10 px-3 py-1 text-xs font-semibold">DQ · Reproducibility</span>
+        </div>
+        <h3 class="mt-3 text-xl font-extrabold">THERMODSET</h3>
+        <p class="mt-2 text-sm leading-relaxed text-coastal-platinum/80">
+          Dataset pipeline with anomaly handling, missing-value imputation, and reproducible preprocessing.
+          Designed for trustworthy ML experimentation and benchmarking.
+        </p>
+        <div class="mt-4 flex flex-wrap gap-2 text-xs font-semibold">
+          <span class="rounded-full bg-white/10 px-3 py-1">Python</span>
+          <span class="rounded-full bg-white/10 px-3 py-1">Time-series</span>
+          <span class="rounded-full bg-white/10 px-3 py-1">Pipelines</span>
+        </div>
+        <div class="mt-5 flex flex-wrap gap-3 text-sm font-semibold">
+          <a class="rounded-2xl border border-white/15 bg-white/5 hover:bg-white/10 px-4 py-2 transition" href="#">Case study</a>
+        </div>
+      </article>
+    </section>
+
+    <footer class="py-8 text-sm text-coastal-platinum/70 flex flex-col gap-3 md:flex-row md:items-center md:justify-between">
+      <span>© <span id="y"></span> Saad Tachrimant. Built with HTML + Tailwind.</span>
+      <div class="flex flex-wrap gap-4 font-semibold">
+        <a class="hover:text-white transition" href="index.html">Home</a>
+        <a class="hover:text-white transition" href="contact.html">Contact</a>
+        <a class="hover:text-white transition" href="mailto:tachrimantsaad@gmail.com">tachrimantsaad@gmail.com</a>
+      </div>
+    </footer>
+  </div>
+
+  <script>
+    document.getElementById('y').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>

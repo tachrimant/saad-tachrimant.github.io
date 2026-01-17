@@ -1,0 +1,26 @@
+{
+  "name": "saad-tachrimant.github.io",
+  "version": "1.0.0",
+  "description": "Click [**Use this template**](https://github.com/mmistakes/mm-github-pages-starter/generate) button above for the quickest method of getting started with the [Minimal Mistakes Jekyll theme](https://github.com/mmistakes/minimal-mistakes).",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tailwindcss --cwd . -c ./tailwind.config.js -i ./input.css -o ./assets/css/style.css --watch",
+    "build": "tailwindcss --cwd . -c ./tailwind.config.js -i ./input.css -o ./assets/css/style.css --minify"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tachrimant/saad-tachrimant.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/tachrimant/saad-tachrimant.github.io/issues"
+  },
+  "homepage": "https://github.com/tachrimant/saad-tachrimant.github.io#readme",
+  "devDependencies": {
+    "@tailwindcss/cli": "^4.1.18",
+    "tailwindcss": "^4.1.18"
+  }
+}
