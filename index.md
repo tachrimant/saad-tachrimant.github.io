@@ -1,168 +1,190 @@
 ---
-title: "Saad Tachrimant | Backend, Data & AI Engineer"
+title: "Saad Tachrimant | Senior Backend & Data Engineer"
 layout: single
+classes: wide
 permalink: /
 ---
 
-<div class="hero-section">
-  <div class="hero-content">
-    <div class="hero-title">
-      <span class="hero-greeting">Hi, I'm</span>
-      <h1 class="hero-name">Saad Tachrimant</h1>
-    </div>
-    <p class="hero-subtitle">Senior Backend, Data & AI Engineer | Building production-grade systems that scale</p>
-    <div class="hero-meta">
-      <span class="meta-badge">🌍 Remote (CET/GMT+1)</span>
-      <span class="meta-badge">⏰ Part-time • Evenings & Weekends</span>
-    </div>
-    <div class="hero-cta">
-      <a href="{{ '/contact/' | relative_url }}" class="cta-button cta-primary">Let's Talk</a>
-      <a href="#expertise" class="cta-button cta-secondary">Explore My Work</a>
-    </div>
-  </div>
-</div>
+<section class="lp-hero">
+  <div class="lp-hero__grid">
+    <div class="lp-hero__copy">
+      <p class="lp-kicker">Senior Backend & Data Engineer (Freelance)</p>
+      <h1 class="lp-title">Build reliable systems that ship—fast.</h1>
+      <p class="lp-subtitle">
+        I help teams deliver production-grade APIs, data pipelines, and ML-powered features—designed for scale, observability, and maintainability.
+      </p>
 
----
+      <div class="lp-badges" aria-label="Availability">
+        <span class="lp-badge">Remote • CET/GMT+1</span>
+        <span class="lp-badge">Part-time • Evenings & Weekends</span>
+      </div>
 
-<div class="expertise-section" id="expertise">
-<h2 class="section-title">Core Expertise</h2>
-<div class="expertise-grid">
-  <div class="expertise-card backend-card">
-    <div class="card-header">
-      <span class="card-icon">⚙️</span>
-      <h3>Backend & APIs</h3>
-    </div>
-    <div class="card-content">
-      <p>Production microservices, Spring Boot, JWT security, async workflows, integrations</p>
-      <div class="tech-stack">
-        <span class="tech-tag">Spring Boot</span>
-        <span class="tech-tag">PostgreSQL</span>
-        <span class="tech-tag">Kafka</span>
-        <span class="tech-tag">REST APIs</span>
+      <div class="lp-cta">
+        <a class="lp-btn lp-btn--primary" href="{{ '/contact/' | relative_url }}">Book a call</a>
+        <a class="lp-btn lp-btn--secondary" href="#services">See services</a>
+      </div>
+
+      <div class="lp-trust">
+        <span class="lp-trust__item">Java / Spring Boot</span>
+        <span class="lp-dot">•</span>
+        <span class="lp-trust__item">Python / Data Engineering</span>
+        <span class="lp-dot">•</span>
+        <span class="lp-trust__item">Kafka / Observability</span>
       </div>
     </div>
-  </div>
 
-  <div class="expertise-card data-card">
-    <div class="card-header">
-      <span class="card-icon">📊</span>
-      <h3>Data Engineering</h3>
-    </div>
-    <div class="card-content">
-      <p>Time-series pipelines, ETL, data quality, preprocessing, monitoring & observability</p>
-      <div class="tech-stack">
-        <span class="tech-tag">Python</span>
-        <span class="tech-tag">PostgreSQL</span>
-        <span class="tech-tag">InfluxDB</span>
-        <span class="tech-tag">Pipelines</span>
+    <aside class="lp-hero__card" aria-label="Quick overview">
+      <div class="lp-card__header">
+        <div>
+          <div class="lp-card__title">Engagement-ready</div>
+          <div class="lp-card__subtitle">Clear scope • fast iteration • clean delivery</div>
+        </div>
       </div>
-    </div>
-  </div>
 
-  <div class="expertise-card ai-card">
-    <div class="card-header">
-      <span class="card-icon">🤖</span>
-      <h3>Applied AI/ML</h3>
-    </div>
-    <div class="card-content">
-      <p>Forecasting models, anomaly detection, inference APIs, edge deployment, real-world integration</p>
-      <div class="tech-stack">
-        <span class="tech-tag">LSTM/GRU</span>
-        <span class="tech-tag">Scikit-learn</span>
-        <span class="tech-tag">Edge IoT</span>
-        <span class="tech-tag">Federated ML</span>
+      <ul class="lp-checklist">
+        <li>API design & implementation (Spring Boot / REST)</li>
+        <li>Data pipelines & time-series stacks (ETL, quality, monitoring)</li>
+        <li>ML inference services (forecasting, anomaly detection)</li>
+      </ul>
+
+      <div class="lp-card__footer">
+        <a class="lp-btn lp-btn--ghost" href="{{ '/projects/' | relative_url }}">View portfolio</a>
+        <a class="lp-btn lp-btn--ghost" href="https://github.com/tachrimant">GitHub</a>
       </div>
-    </div>
+    </aside>
   </div>
-</div>
-</div>
+</section>
 
----
 
-<div class="featured-section">
-<h2 class="section-title">Featured Projects</h2>
-<div class="featured-grid">
-  <div class="project-card">
-    <div class="project-badge software-badge">Software Systems</div>
-    <h3 class="project-title">Quanoni Platform</h3>
-    <p class="project-description">InDrive for lawyers: urgent/scheduled consultations, AI-powered routing, real-time notifications, payments integration</p>
-    <div class="project-tech">
-      <span>Spring Boot</span>
-      <span>Angular</span>
-      <span>Kafka</span>
-      <span>AI Routing</span>
-      <span>WhatsApp API</span>
-    </div>
-    <div class="project-links">
-      <a href="https://quanoni.com/" class="project-link">Live →</a>
-      <a href="{{ '/projects/software/quanoni/' | relative_url }}" class="project-link case-study">Case Study</a>
-    </div>
+<section class="lp-section" id="services">
+  <div class="lp-section__head">
+    <h2 class="lp-section__title">Services</h2>
+    <p class="lp-section__subtitle">Deliverables you can ship. Built with pragmatic engineering, not buzzwords.</p>
   </div>
 
-  <div class="project-card">
-    <div class="project-badge software-badge">Software Systems</div>
-    <h3 class="project-title">EngFlexy Platform</h3>
-    <p class="project-description">English learning platform with AI level testing, dynamic scheduling, instructor compensation logic, and community features</p>
-    <div class="project-tech">
-      <span>Spring Boot</span>
-      <span>Angular</span>
-      <span>PostgreSQL</span>
-      <span>Scheduling</span>
-      <span>WordPress</span>
-    </div>
-    <div class="project-links">
-      <a href="https://engflexy.com/" class="project-link">Live →</a>
-      <a href="{{ '/projects/software/engflexy/' | relative_url }}" class="project-link case-study">Case Study</a>
-    </div>
+  <div class="lp-grid lp-grid--3">
+    <article class="lp-card">
+      <div class="lp-card__icon">Backend & APIs</div>
+      <h3 class="lp-card__h">Production services</h3>
+      <p class="lp-card__p">Microservices, auth, integrations, migrations, and performance—implemented with clean boundaries and testability.</p>
+      <div class="lp-tags">
+        <span class="lp-tag">Spring Boot</span>
+        <span class="lp-tag">Security</span>
+        <span class="lp-tag">PostgreSQL</span>
+        <span class="lp-tag">REST</span>
+      </div>
+    </article>
+
+    <article class="lp-card">
+      <div class="lp-card__icon">Data Engineering</div>
+      <h3 class="lp-card__h">Pipelines & monitoring</h3>
+      <p class="lp-card__p">Time-series pipelines, ETL/ELT, data quality checks, and observability so you can trust your numbers.</p>
+      <div class="lp-tags">
+        <span class="lp-tag">Python</span>
+        <span class="lp-tag">ETL</span>
+        <span class="lp-tag">InfluxDB</span>
+        <span class="lp-tag">DQ</span>
+      </div>
+    </article>
+
+    <article class="lp-card">
+      <div class="lp-card__icon">Applied ML</div>
+      <h3 class="lp-card__h">Inference services</h3>
+      <p class="lp-card__p">Forecasting and anomaly detection—from model integration to deployable APIs (edge-friendly when needed).</p>
+      <div class="lp-tags">
+        <span class="lp-tag">Scikit-learn</span>
+        <span class="lp-tag">LSTM/GRU</span>
+        <span class="lp-tag">Inference</span>
+        <span class="lp-tag">IoT</span>
+      </div>
+    </article>
+  </div>
+</section>
+
+
+<section class="lp-section" id="work">
+  <div class="lp-section__head">
+    <h2 class="lp-section__title">Selected work</h2>
+    <p class="lp-section__subtitle">A snapshot of systems built across software, data, and applied ML.</p>
   </div>
 
-  <div class="project-card">
-    <div class="project-badge ai-badge">AI & ML</div>
-    <h3 class="project-title">P2P Thermal Forecasting</h3>
-    <p class="project-description">Edge AI forecasting: two-stage model, per-node personalization, real-time monitoring on Raspberry Pi infrastructure</p>
-    <div class="project-tech">
-      <span>LSTM/GRU</span>
-      <span>Python</span>
-      <span>Raspberry Pi</span>
-      <span>InfluxDB</span>
-      <span>Federated Learning</span>
-    </div>
-    <div class="project-links">
-      <a href="{{ '/projects/ai/p2p-thermal/' | relative_url }}" class="project-link case-study">Case Study</a>
-    </div>
+  <div class="lp-grid lp-grid--2">
+    <article class="lp-project">
+      <div class="lp-project__meta">Software Systems</div>
+      <h3 class="lp-project__title">Quanoni Platform</h3>
+      <p class="lp-project__desc">Urgent & scheduled consultations with routing, notifications, and payments integration.</p>
+      <div class="lp-tags">
+        <span class="lp-tag">Spring Boot</span>
+        <span class="lp-tag">Angular</span>
+        <span class="lp-tag">Kafka</span>
+        <span class="lp-tag">Integrations</span>
+      </div>
+      <div class="lp-project__links">
+        <a class="lp-link" href="https://quanoni.com/">Live</a>
+        <a class="lp-link" href="{{ '/projects/software/quanoni/' | relative_url }}">Case study</a>
+      </div>
+    </article>
+
+    <article class="lp-project">
+      <div class="lp-project__meta">Software Systems</div>
+      <h3 class="lp-project__title">EngFlexy Platform</h3>
+      <p class="lp-project__desc">AI-powered level testing with scheduling and instructor compensation logic.</p>
+      <div class="lp-tags">
+        <span class="lp-tag">Spring Boot</span>
+        <span class="lp-tag">PostgreSQL</span>
+        <span class="lp-tag">Angular</span>
+        <span class="lp-tag">Scheduling</span>
+      </div>
+      <div class="lp-project__links">
+        <a class="lp-link" href="https://engflexy.com/">Live</a>
+        <a class="lp-link" href="{{ '/projects/software/engflexy/' | relative_url }}">Case study</a>
+      </div>
+    </article>
+
+    <article class="lp-project">
+      <div class="lp-project__meta">AI & ML</div>
+      <h3 class="lp-project__title">P2P Thermal Forecasting</h3>
+      <p class="lp-project__desc">Two-stage forecasting with per-node personalization and Raspberry Pi monitoring.</p>
+      <div class="lp-tags">
+        <span class="lp-tag">Python</span>
+        <span class="lp-tag">Time-series</span>
+        <span class="lp-tag">InfluxDB</span>
+        <span class="lp-tag">Edge</span>
+      </div>
+      <div class="lp-project__links">
+        <a class="lp-link" href="{{ '/projects/ai/p2p-thermal/' | relative_url }}">Case study</a>
+      </div>
+    </article>
+
+    <article class="lp-project">
+      <div class="lp-project__meta">Data Engineering</div>
+      <h3 class="lp-project__title">THERMODSET</h3>
+      <p class="lp-project__desc">Thermal dataset pipeline with reproducible preprocessing and data-quality controls.</p>
+      <div class="lp-tags">
+        <span class="lp-tag">Python</span>
+        <span class="lp-tag">DQ</span>
+        <span class="lp-tag">Reproducibility</span>
+      </div>
+      <div class="lp-project__links">
+        <a class="lp-link" href="{{ '/projects/data/thermodset/' | relative_url }}">Case study</a>
+      </div>
+    </article>
   </div>
 
-  <div class="project-card">
-    <div class="project-badge data-badge">Data Engineering</div>
-    <h3 class="project-title">THERMODSET</h3>
-    <p class="project-description">Production-quality thermal dataset: rigorous preprocessing, missing value imputation, outlier handling for hot climate research</p>
-    <div class="project-tech">
-      <span>Python</span>
-      <span>Time-Series</span>
-      <span>Data Quality</span>
-      <span>Reproducibility</span>
-    </div>
-    <div class="project-links">
-      <a href="{{ '/projects/data/thermodset/' | relative_url }}" class="project-link case-study">Case Study</a>
+  <div class="lp-center">
+    <a class="lp-btn lp-btn--secondary" href="{{ '/projects/' | relative_url }}">View all projects</a>
+  </div>
+</section>
+
+
+<section class="lp-final">
+  <div class="lp-final__inner">
+    <h2 class="lp-final__title">Need a dependable engineer on your roadmap?</h2>
+    <p class="lp-final__sub">Share your context and constraints. You'll get a clear plan, a scoped proposal, and on-time delivery.</p>
+    <div class="lp-final__cta">
+      <a class="lp-btn lp-btn--primary" href="{{ '/contact/' | relative_url }}">Get in touch</a>
+      <a class="lp-btn lp-btn--ghost" href="https://www.linkedin.com/in/saad-tachrimant-a00700177/">LinkedIn</a>
+      <a class="lp-btn lp-btn--ghost" href="https://github.com/tachrimant">GitHub</a>
     </div>
   </div>
-</div>
-<div class="view-all-link">
-  <a href="{{ '/projects/' | relative_url }}" class="view-all-button">View all projects →</a>
-</div>
-</div>
-
----
-
-<div class="cta-section">
-<h2>Ready to collaborate?</h2>
-<p>I'm open to remote freelance missions — preferably long-term, scheduled around your timezone.</p>
-<a href="{{ '/contact/' | relative_url }}" class="cta-button cta-primary large">Get in touch</a>
-<div class="social-links">
-  <a href="https://github.com/tachrimant" title="GitHub">GitHub</a>
-  <span class="separator">·</span>
-  <a href="https://www.linkedin.com/in/saad-tachrimant-a00700177/" title="LinkedIn">LinkedIn</a>
-  <span class="separator">·</span>
-  <a href="{{ '/contact/' | relative_url }}">Contact</a>
-</div>
-</div>
+</section>
