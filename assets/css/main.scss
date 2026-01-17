@@ -600,33 +600,71 @@ h1, h2, h3 {
   backdrop-filter: blur(10px);
 }
 
-.masthead a { color: var(--text) !important; }
-.masthead a:hover { color: var(--accent-2) !important; }
-
-/* Improve masthead typography & nav contrast */
-.site-title,
-.masthead__menu-item,
-.greedy-nav .visible-links a {
-  color: var(--text) !important;
+/*
+  Minimal Mistakes masthead styles can be quite specific (skin-dependent),
+  so we override using higher-specificity selectors.
+*/
+.masthead .greedy-nav,
+.masthead .greedy-nav__toggle {
+  background: transparent !important;
 }
 
-.site-subtitle,
-.greedy-nav .visible-links a {
-  opacity: 0.92;
-}
-
-.site-subtitle {
-  color: var(--muted-2) !important;
-  font-weight: 650;
-}
-
-.greedy-nav .visible-links a {
+.masthead .greedy-nav a,
+.masthead .greedy-nav button {
   color: var(--muted) !important;
+}
+
+.masthead .greedy-nav a:hover,
+.masthead .greedy-nav button:hover {
+  color: var(--text) !important;
+}
+
+/* Site title + subtitle (your name + role) */
+.masthead .greedy-nav a.site-title {
+  color: var(--text) !important;
+  font-weight: 800 !important;
+  letter-spacing: -0.02em;
+}
+
+.masthead .greedy-nav .site-subtitle {
+  color: var(--muted) !important;
+  opacity: 1 !important;
+  font-weight: 650 !important;
+}
+
+/* Visible links (Home/Projects/...) */
+.masthead .greedy-nav .visible-links a {
+  color: rgba(231, 238, 252, 0.78) !important;
   font-weight: 650;
 }
 
-.greedy-nav .visible-links a:hover {
+.masthead .greedy-nav .visible-links a:hover {
   color: var(--text) !important;
+}
+
+/* Search icon / toggle */
+.masthead .search__toggle,
+.masthead .greedy-nav__toggle {
+  color: rgba(231, 238, 252, 0.85) !important;
+}
+
+.masthead .search__toggle:hover,
+.masthead .greedy-nav__toggle:hover {
+  color: var(--text) !important;
+}
+
+/* If the search input ever renders in the masthead, make it match */
+.masthead input[type="search"],
+.masthead input.search-input {
+  background: rgba(255, 255, 255, 0.06) !important;
+  border: 1px solid var(--border) !important;
+  color: var(--text) !important;
+  border-radius: 12px !important;
+}
+
+.masthead input[type="search"]::placeholder,
+.masthead input.search-input::placeholder {
+  color: rgba(231, 238, 252, 0.45) !important;
 }
 
 /* Search field (if enabled) */

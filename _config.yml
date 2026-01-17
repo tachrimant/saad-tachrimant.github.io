@@ -1,5 +1,6 @@
 
 title: Saad Tachrimant
+subtitle: "Senior Backend & Data Engineer (Freelance)"
 email: tachrimantsaad@gmail.com
 description: >-
     Senior Backend & Data Engineer (Freelance) — Java Spring Boot, Python, Data Engineering, Applied ML.
@@ -7,9 +8,9 @@ description: >-
 twitter_username: 
 github_username: tachrimant
 minimal_mistakes_skin: air
-search: true
+search: false
 
-url: "https://tachrimant.github.io/saad-tachrimant.github.io/"
+url: "https://tachrimant.github.io"
 baseurl: "/saad-tachrimant.github.io"
 
 # Build settings

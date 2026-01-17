@@ -47,7 +47,7 @@ permalink: /
       <ul class="lp-checklist">
         <li>API design & implementation (Spring Boot / REST)</li>
         <li>Data pipelines & time-series stacks (ETL, quality, monitoring)</li>
-        <li>ML model development & tuning (forecasting, anomaly detection)</li>
+        <li>ML modeling & accuracy work (feature engineering, training, tuning)</li>
       </ul>
 
       <div class="lp-card__footer">
@@ -93,13 +93,13 @@ permalink: /
     <article class="lp-card">
       <div class="lp-card__icon">Applied ML</div>
       <h3 class="lp-card__h">Modeling to production</h3>
-      <p class="lp-card__p">Full ML lifecycle: feature engineering, model training, evaluation, and hyperparameter search—then packaging the best model into deployable services (batch, real-time, or edge-friendly when needed).</p>
+      <p class="lp-card__p">Full ML lifecycle: feature engineering, training, evaluation, and hyperparameter optimization to improve accuracy and stability—then packaging the best model into deployable services (batch, real-time, or edge-friendly when needed).</p>
       <div class="lp-tags">
         <span class="lp-tag">Scikit-learn</span>
         <span class="lp-tag">LSTM/GRU</span>
         <span class="lp-tag">Training</span>
         <span class="lp-tag">Tuning</span>
-        <span class="lp-tag">Tuning</span>
+        <span class="lp-tag">Evaluation</span>
       </div>
     </article>
   </div>
