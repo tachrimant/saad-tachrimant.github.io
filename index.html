@@ -1,7 +1,397 @@
----
-# You don't need to edit this file, it's empty on purpose.
-# Edit theme's home layout instead if you wanna make some changes
-# See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-layout: home
-author_profile: true
----
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Saad Tachrimant | Backend · Data · ML</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+	<script>
+		tailwind = {
+			theme: {
+				extend: {
+					colors: {
+						brand: {
+							50: '#eef2ff',
+							100: '#e0e7ff',
+							200: '#c7d2fe',
+							300: '#a5b4fc',
+							400: '#818cf8',
+							500: '#6366f1',
+							600: '#4f46e5',
+							700: '#4338ca',
+							800: '#3730a3',
+							900: '#312e81'
+						}
+					},
+					boxShadow: {
+						card: '0 20px 60px -24px rgba(15,23,42,0.35)'
+					},
+					fontFamily: {
+						sans: ['Inter', 'system-ui', '-apple-system', 'Segoe UI', 'sans-serif']
+					}
+				}
+			}
+		}
+	</script>
+	<script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-slate-50 text-slate-900 font-sans">
+	<div class="absolute inset-0 -z-10 bg-gradient-to-b from-slate-50 via-white to-slate-100"></div>
+	<div class="absolute inset-x-0 -z-10 top-24 h-64 bg-gradient-to-r from-brand-50 via-white to-brand-50 blur-2xl"></div>
+
+	<div class="max-w-6xl mx-auto px-5 py-8 space-y-10">
+		<header class="flex flex-col gap-4 md:flex-row md:items-center md:justify-between">
+			<div class="flex items-center gap-3">
+				<div class="h-11 w-11 rounded-xl bg-brand-600 text-white flex items-center justify-center font-bold">ST</div>
+				<div>
+					<p class="text-xs font-semibold uppercase tracking-[0.14em] text-brand-700">Backend · Data · ML</p>
+					<h1 class="text-2xl font-bold text-slate-900">Saad Tachrimant</h1>
+				</div>
+			</div>
+			<nav class="flex flex-wrap items-center gap-3 text-sm font-semibold text-slate-600">
+				<a class="hover:text-brand-600" href="#projects">Projects</a>
+				<a class="hover:text-brand-600" href="#delivery">Approach</a>
+				<a class="hover:text-brand-600" href="#tech">Technologies</a>
+				<a class="hover:text-brand-600" href="#contact">Contact</a>
+				<a class="px-3 py-2 rounded-lg bg-brand-600 text-white shadow-card hover:-translate-y-0.5 transition" href="https://github.com/tachrimant">GitHub</a>
+			</nav>
+		</header>
+
+		<section class="grid gap-6 lg:grid-cols-[1.2fr_0.9fr]">
+			<div class="rounded-2xl bg-white p-6 lg:p-7 shadow-card border border-slate-100 space-y-6">
+				<div class="flex flex-col gap-4 sm:flex-row sm:items-center sm:gap-5">
+					<img src="/assets/images/my_picture.jpeg" alt="Saad Tachrimant" class="h-20 w-20 rounded-2xl border border-slate-200 object-cover">
+					<div class="space-y-1">
+						<p class="text-xs font-semibold uppercase tracking-[0.14em] text-brand-700">Senior Backend · Data & AI Engineer (Freelance)</p>
+						<p class="text-slate-600">Remote · CET/GMT+1 · Part-time (evenings & weekends)</p>
+						<div class="flex flex-wrap gap-2 text-xs font-semibold text-slate-600">
+							<span class="inline-flex items-center rounded-full bg-brand-50 px-3 py-1 text-brand-700">Reliable delivery</span>
+							<span class="inline-flex items-center rounded-full bg-slate-100 px-3 py-1">APIs · Data · ML in prod</span>
+						</div>
+					</div>
+				</div>
+				<div class="space-y-3 text-base leading-relaxed text-slate-700">
+					<p>I build production-grade APIs, data pipelines, and applied ML systems. I care about latency, correctness, observability, and leaving teams with playbooks—not surprise work.</p>
+					<p>I have shipped scheduling, payments, and forecasting products end-to-end: shaping requirements, writing contracts, building services, and wiring the guardrails so releases stay boring. Pursuing a PhD on decentralized peer-to-peer learning for time-series forecasting keeps my ML approach practical and reproducible.</p>
+				</div>
+				<div class="grid gap-3 sm:grid-cols-2">
+					<div class="rounded-xl border border-slate-200 bg-slate-50 p-3 text-sm font-semibold text-slate-800">
+						<p class="text-xs font-semibold uppercase tracking-wide text-slate-500">Mode</p>
+						Remote · async-first
+					</div>
+					<div class="rounded-xl border border-slate-200 bg-slate-50 p-3 text-sm font-semibold text-slate-800">
+						<p class="text-xs font-semibold uppercase tracking-wide text-slate-500">Handoff</p>
+						Docs, dashboards, and runbooks
+					</div>
+					<div class="rounded-xl border border-slate-200 bg-slate-50 p-3 text-sm font-semibold text-slate-800">
+						<p class="text-xs font-semibold uppercase tracking-wide text-slate-500">Focus</p>
+						APIs · data pipelines · ML in prod
+					</div>
+					<div class="rounded-xl border border-slate-200 bg-slate-50 p-3 text-sm font-semibold text-slate-800">
+						<p class="text-xs font-semibold uppercase tracking-wide text-slate-500">Engagement</p>
+						Scope → ship → observe
+					</div>
+				</div>
+				<div class="flex flex-wrap gap-3">
+					<a class="inline-flex items-center justify-center gap-2 rounded-xl bg-brand-600 px-4 py-2 text-white font-semibold shadow-card hover:-translate-y-0.5 transition" href="mailto:tachrimantsaad@gmail.com">Book a call</a>
+					<a class="inline-flex items-center justify-center gap-2 rounded-xl border border-slate-200 bg-white px-4 py-2 font-semibold text-slate-700 hover:-translate-y-0.5 hover:border-brand-200 hover:text-brand-700 transition" href="https://www.linkedin.com/in/saad-tachrimant-a00700177/">LinkedIn</a>
+					<a class="inline-flex items-center justify-center gap-2 rounded-xl border border-slate-200 bg-white px-4 py-2 font-semibold text-slate-700 hover:-translate-y-0.5 hover:border-brand-200 hover:text-brand-700 transition" href="https://github.com/tachrimant">GitHub</a>
+				</div>
+			</div>
+
+			<div class="space-y-4">
+				<div class="rounded-2xl bg-white p-5 shadow-card border border-slate-100 space-y-4">
+					<div class="flex items-center justify-between">
+						<div>
+							<p class="text-xs font-semibold uppercase tracking-[0.14em] text-brand-700">Snapshot</p>
+							<h2 class="text-xl font-bold">At a glance</h2>
+						</div>
+						<span class="inline-flex items-center rounded-full bg-slate-100 px-3 py-1 text-xs font-semibold text-slate-600">Reliable delivery</span>
+					</div>
+					<div class="grid gap-3 sm:grid-cols-2">
+						<div class="rounded-xl border border-slate-200 bg-slate-50 p-3 text-sm font-semibold text-slate-800">
+							<p class="text-xs font-semibold uppercase tracking-wide text-slate-500">Backend</p>
+							Spring Boot, REST, Kafka
+						</div>
+						<div class="rounded-xl border border-slate-200 bg-slate-50 p-3 text-sm font-semibold text-slate-800">
+							<p class="text-xs font-semibold uppercase tracking-wide text-slate-500">Data</p>
+							ETL, PostgreSQL, InfluxDB
+						</div>
+						<div class="rounded-xl border border-slate-200 bg-slate-50 p-3 text-sm font-semibold text-slate-800">
+							<p class="text-xs font-semibold uppercase tracking-wide text-slate-500">ML</p>
+							Forecasting, tuning, eval
+						</div>
+						<div class="rounded-xl border border-slate-200 bg-slate-50 p-3 text-sm font-semibold text-slate-800">
+							<p class="text-xs font-semibold uppercase tracking-wide text-slate-500">Ops</p>
+							CI/CD, dashboards, alerts
+						</div>
+					</div>
+					<div class="flex flex-wrap gap-2 text-sm font-semibold text-slate-700">
+						<span class="inline-flex items-center rounded-full bg-slate-100 px-3 py-1">Java</span>
+						<span class="inline-flex items-center rounded-full bg-slate-100 px-3 py-1">Spring Boot</span>
+						<span class="inline-flex items-center rounded-full bg-slate-100 px-3 py-1">Python</span>
+						<span class="inline-flex items-center rounded-full bg-slate-100 px-3 py-1">Kafka</span>
+						<span class="inline-flex items-center rounded-full bg-slate-100 px-3 py-1">PostgreSQL</span>
+						<span class="inline-flex items-center rounded-full bg-slate-100 px-3 py-1">InfluxDB</span>
+						<span class="inline-flex items-center rounded-full bg-slate-100 px-3 py-1">Grafana</span>
+					</div>
+				</div>
+
+				<div class="rounded-2xl bg-white p-5 shadow-card border border-slate-100 space-y-3">
+					<div class="flex items-center gap-2">
+						<span class="inline-flex items-center rounded-full bg-brand-50 px-3 py-1 text-xs font-semibold text-brand-700">How I ship</span>
+						<p class="text-sm text-slate-600">Contracts first, observable by default.</p>
+					</div>
+					<ul class="list-disc list-inside space-y-2 text-sm text-slate-700 leading-relaxed">
+						<li>Start with outcomes and SLAs, translate to schemas, events, and interfaces.</li>
+						<li>Iterate in thin slices with demos, load tests, and rollout plans.</li>
+						<li>Instrument early so incidents are visible and reversible.</li>
+						<li>Leave playbooks, dashboards, and docs so teams can operate confidently.</li>
+					</ul>
+				</div>
+			</div>
+		</section>
+
+		<section id="projects" class="space-y-4">
+			<div class="flex items-baseline justify-between gap-4 flex-wrap">
+				<div>
+					<p class="text-xs font-semibold uppercase tracking-[0.14em] text-brand-700">Work samples</p>
+					<h2 class="text-2xl font-bold">Featured projects</h2>
+					<p class="text-base text-slate-600">Product backends, data pipelines, and applied ML with operational guardrails.</p>
+				</div>
+			</div>
+			<div class="grid gap-5 lg:grid-cols-2">
+				<article class="rounded-2xl bg-white p-5 shadow-card border border-slate-100 space-y-3">
+					<div class="flex items-center justify-between">
+						<p class="inline-flex items-center rounded-full bg-slate-100 px-3 py-1 text-xs font-semibold text-slate-700">Software systems</p>
+						<div class="flex gap-2 text-sm font-semibold text-slate-700">
+							<span class="inline-flex items-center rounded-full bg-slate-100 px-3 py-1">Spring Boot</span>
+							<span class="inline-flex items-center rounded-full bg-slate-100 px-3 py-1">Angular</span>
+						</div>
+					</div>
+					<div class="space-y-2">
+						<h3 class="text-xl font-semibold text-slate-900">Quanoni Platform</h3>
+						<p class="text-slate-700 leading-relaxed">Urgent & scheduled consultations with routing, notifications, and payments. Built for reliability, low latency, and operational visibility.</p>
+					</div>
+					<div class="flex flex-wrap gap-2 text-sm text-slate-600">
+						<span class="inline-flex items-center rounded-full bg-slate-100 px-3 py-1">Kafka</span>
+						<span class="inline-flex items-center rounded-full bg-slate-100 px-3 py-1">Integrations</span>
+						<span class="inline-flex items-center rounded-full bg-slate-100 px-3 py-1">Observability</span>
+					</div>
+					<div class="flex gap-4 text-sm font-semibold text-brand-700">
+						<a class="hover:text-brand-800" href="https://quanoni.com/">Live</a>
+						<a class="hover:text-brand-800" href="https://github.com/tachrimant">Case study</a>
+					</div>
+				</article>
+
+				<article class="rounded-2xl bg-white p-5 shadow-card border border-slate-100 space-y-3">
+					<div class="flex items-center justify-between">
+						<p class="inline-flex items-center rounded-full bg-slate-100 px-3 py-1 text-xs font-semibold text-slate-700">Software systems</p>
+						<div class="flex gap-2 text-sm font-semibold text-slate-700">
+							<span class="inline-flex items-center rounded-full bg-slate-100 px-3 py-1">Spring Boot</span>
+							<span class="inline-flex items-center rounded-full bg-slate-100 px-3 py-1">PostgreSQL</span>
+						</div>
+					</div>
+					<div class="space-y-2">
+						<h3 class="text-xl font-semibold text-slate-900">EngFlexy Platform</h3>
+						<p class="text-slate-700 leading-relaxed">AI-assisted level testing, scheduling workflows, and instructor compensation. Stable backend and integrations for daily operations.</p>
+					</div>
+					<div class="flex flex-wrap gap-2 text-sm text-slate-600">
+						<span class="inline-flex items-center rounded-full bg-slate-100 px-3 py-1">Angular</span>
+						<span class="inline-flex items-center rounded-full bg-slate-100 px-3 py-1">Scheduling</span>
+						<span class="inline-flex items-center rounded-full bg-slate-100 px-3 py-1">Billing</span>
+					</div>
+					<div class="flex gap-4 text-sm font-semibold text-brand-700">
+						<a class="hover:text-brand-800" href="https://engflexy.com/">Live</a>
+						<a class="hover:text-brand-800" href="https://github.com/tachrimant">Case study</a>
+					</div>
+				</article>
+
+				<article class="rounded-2xl bg-white p-5 shadow-card border border-slate-100 space-y-3">
+					<div class="flex items-center justify-between">
+						<p class="inline-flex items-center rounded-full bg-slate-100 px-3 py-1 text-xs font-semibold text-slate-700">AI & ML</p>
+						<div class="flex gap-2 text-sm font-semibold text-slate-700">
+							<span class="inline-flex items-center rounded-full bg-slate-100 px-3 py-1">Python</span>
+							<span class="inline-flex items-center rounded-full bg-slate-100 px-3 py-1">Time-series</span>
+						</div>
+					</div>
+					<div class="space-y-2">
+						<h3 class="text-xl font-semibold text-slate-900">P2P Thermal Forecasting</h3>
+						<p class="text-slate-700 leading-relaxed">Two-stage forecasting with per-node personalization and Raspberry Pi monitoring. Training + inference pipelines with evaluation under edge constraints.</p>
+					</div>
+					<div class="flex flex-wrap gap-2 text-sm text-slate-600">
+						<span class="inline-flex items-center rounded-full bg-slate-100 px-3 py-1">InfluxDB</span>
+						<span class="inline-flex items-center rounded-full bg-slate-100 px-3 py-1">Edge</span>
+						<span class="inline-flex items-center rounded-full bg-slate-100 px-3 py-1">Eval loops</span>
+					</div>
+					<div class="flex gap-4 text-sm font-semibold text-brand-700">
+						<a class="hover:text-brand-800" href="https://github.com/tachrimant">Case study</a>
+					</div>
+				</article>
+
+				<article class="rounded-2xl bg-white p-5 shadow-card border border-slate-100 space-y-3">
+					<div class="flex items-center justify-between">
+						<p class="inline-flex items-center rounded-full bg-slate-100 px-3 py-1 text-xs font-semibold text-slate-700">Data engineering</p>
+						<div class="flex gap-2 text-sm font-semibold text-slate-700">
+							<span class="inline-flex items-center rounded-full bg-slate-100 px-3 py-1">Python</span>
+							<span class="inline-flex items-center rounded-full bg-slate-100 px-3 py-1">DQ</span>
+						</div>
+					</div>
+					<div class="space-y-2">
+						<h3 class="text-xl font-semibold text-slate-900">THERMODSET</h3>
+						<p class="text-slate-700 leading-relaxed">Production-quality thermal dataset pipeline with reproducible preprocessing, missing-value handling, and data-quality controls.</p>
+					</div>
+					<div class="flex flex-wrap gap-2 text-sm text-slate-600">
+						<span class="inline-flex items-center rounded-full bg-slate-100 px-3 py-1">Reproducibility</span>
+						<span class="inline-flex items-center rounded-full bg-slate-100 px-3 py-1">Data quality</span>
+						<span class="inline-flex items-center rounded-full bg-slate-100 px-3 py-1">Pipelines</span>
+					</div>
+					<div class="flex gap-4 text-sm font-semibold text-brand-700">
+						<a class="hover:text-brand-800" href="https://github.com/tachrimant">Case study</a>
+					</div>
+				</article>
+			</div>
+		</section>
+
+		<section id="delivery" class="rounded-2xl bg-white p-6 lg:p-7 shadow-card border border-slate-100 space-y-5">
+			<div class="flex items-baseline justify-between gap-4 flex-wrap">
+				<div>
+					<p class="text-xs font-semibold uppercase tracking-[0.14em] text-brand-700">Operating mode</p>
+					<h2 class="text-2xl font-bold">Delivery approach</h2>
+					<p class="text-base text-slate-600">Clarity first, then contracts, then instrumentation and rollout.</p>
+				</div>
+				<span class="inline-flex items-center rounded-full bg-slate-100 px-3 py-1 text-xs font-semibold text-slate-700">Steady releases</span>
+			</div>
+			<div class="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+				<article class="rounded-xl border border-slate-200 bg-slate-50 p-4">
+					<p class="text-xs font-semibold uppercase tracking-wide text-slate-500">01 · Align</p>
+					<p class="font-semibold text-slate-900">Business outcomes, SLAs, and risks mapped to signals.</p>
+				</article>
+				<article class="rounded-xl border border-slate-200 bg-slate-50 p-4">
+					<p class="text-xs font-semibold uppercase tracking-wide text-slate-500">02 · Design</p>
+					<p class="font-semibold text-slate-900">APIs/events first, data contracts, auth and rollout paths decided early.</p>
+				</article>
+				<article class="rounded-xl border border-slate-200 bg-slate-50 p-4">
+					<p class="text-xs font-semibold uppercase tracking-wide text-slate-500">03 · Build</p>
+					<p class="font-semibold text-slate-900">Thin slices with tests, load checks, and observability wired in.</p>
+				</article>
+				<article class="rounded-xl border border-slate-200 bg-slate-50 p-4">
+					<p class="text-xs font-semibold uppercase tracking-wide text-slate-500">04 · Operate</p>
+					<p class="font-semibold text-slate-900">Dashboards, alerts, runbooks, and clean handovers to keep shipping.</p>
+				</article>
+			</div>
+		</section>
+
+		<section class="rounded-2xl bg-white p-6 lg:p-7 shadow-card border border-slate-100 space-y-6">
+			<div class="flex items-start justify-between gap-4 flex-wrap">
+				<div>
+					<p class="text-xs font-semibold uppercase tracking-[0.14em] text-brand-700">Capabilities</p>
+					<h2 class="text-2xl font-bold">Systems I build</h2>
+					<p class="text-base text-slate-600">Backend platforms, data plumbing, and ML rigor that stay operable.</p>
+				</div>
+			</div>
+			<div class="grid gap-5 lg:grid-cols-3">
+				<article class="rounded-2xl border border-slate-200 bg-slate-50 p-5 space-y-3">
+					<h3 class="text-lg font-semibold text-slate-900">Backend platforms</h3>
+					<p class="text-slate-700">Typed services on Spring Boot with Kafka for async flows, hardened with tests and contract checks.</p>
+					<ul class="list-disc list-inside space-y-1 text-sm text-slate-700">
+						<li>REST/GraphQL APIs with auth, rate limits, and audit trails.</li>
+						<li>Event-driven workflows with retries, idempotency, and DLQs.</li>
+						<li>Integration playbooks for payments, notifications, and scheduling.</li>
+					</ul>
+				</article>
+				<article class="rounded-2xl border border-slate-200 bg-slate-50 p-5 space-y-3">
+					<h3 class="text-lg font-semibold text-slate-900">Data & analytics</h3>
+					<p class="text-slate-700">Pipelines that keep accuracy and lineage visible, from ingestion to serving.</p>
+					<ul class="list-disc list-inside space-y-1 text-sm text-slate-700">
+						<li>ETL jobs with schema validation, drift alerts, and data quality checks.</li>
+						<li>Time-series storage and rollups tuned for forecasting workloads.</li>
+						<li>Metrics and reporting with reproducible notebooks and CI hooks.</li>
+					</ul>
+				</article>
+				<article class="rounded-2xl border border-slate-200 bg-slate-50 p-5 space-y-3">
+					<h3 class="text-lg font-semibold text-slate-900">ML in production</h3>
+					<p class="text-slate-700">Applied ML with clear baselines, evaluation loops, and safe deployments.</p>
+					<ul class="list-disc list-inside space-y-1 text-sm text-slate-700">
+						<li>Forecasting models (LSTM/GRU) with calibration and backtesting.</li>
+						<li>Feature stores and model registries wired into CI/CD.</li>
+						<li>Serving paths with canaries, shadow traffic, and observability by default.</li>
+					</ul>
+				</article>
+			</div>
+		</section>
+
+		<section id="tech" class="rounded-2xl bg-white p-6 lg:p-7 shadow-card border border-slate-100 space-y-6">
+			<div class="flex items-start justify-between gap-4 flex-wrap">
+				<div>
+					<p class="text-xs font-semibold uppercase tracking-[0.14em] text-brand-700">Toolkit</p>
+					<h2 class="text-2xl font-bold">Technologies</h2>
+					<p class="text-base text-slate-600">Stacks I use to ship production systems and keep them observable.</p>
+				</div>
+			</div>
+			<div class="grid gap-6 lg:grid-cols-3">
+				<article class="space-y-3">
+					<h3 class="text-lg font-semibold text-slate-900">Backend & APIs</h3>
+					<p class="text-slate-700">Java + Spring Boot for typed services, Kafka for async contracts, PostgreSQL for transactional state, REST/GraphQL where interoperability matters.</p>
+					<div class="flex flex-wrap gap-2 text-sm font-semibold text-slate-700">
+						<span class="inline-flex items-center rounded-full bg-slate-100 px-3 py-1">Java</span>
+						<span class="inline-flex items-center rounded-full bg-slate-100 px-3 py-1">Spring Boot</span>
+						<span class="inline-flex items-center rounded-full bg-slate-100 px-3 py-1">Kafka</span>
+						<span class="inline-flex items-center rounded-full bg-slate-100 px-3 py-1">PostgreSQL</span>
+						<span class="inline-flex items-center rounded-full bg-slate-100 px-3 py-1">REST</span>
+						<span class="inline-flex items-center rounded-full bg-slate-100 px-3 py-1">GraphQL</span>
+					</div>
+				</article>
+				<article class="space-y-3">
+					<h3 class="text-lg font-semibold text-slate-900">Data & ML</h3>
+					<p class="text-slate-700">Python with Pandas/Scikit-learn for analysis, time-series modeling with LSTM/GRU, and pipelines that keep accuracy and reproducibility measurable.</p>
+					<div class="flex flex-wrap gap-2 text-sm font-semibold text-slate-700">
+						<span class="inline-flex items-center rounded-full bg-slate-100 px-3 py-1">Python</span>
+						<span class="inline-flex items-center rounded-full bg-slate-100 px-3 py-1">Pandas</span>
+						<span class="inline-flex items-center rounded-full bg-slate-100 px-3 py-1">Scikit-learn</span>
+						<span class="inline-flex items-center rounded-full bg-slate-100 px-3 py-1">LSTM/GRU</span>
+						<span class="inline-flex items-center rounded-full bg-slate-100 px-3 py-1">ETL</span>
+						<span class="inline-flex items-center rounded-full bg-slate-100 px-3 py-1">Forecasting</span>
+					</div>
+				</article>
+				<article class="space-y-3">
+					<h3 class="text-lg font-semibold text-slate-900">Ops & Observability</h3>
+					<p class="text-slate-700">Docker and CI/CD for consistent builds; InfluxDB + Grafana for metrics; monitoring baked into services so incidents are obvious and resolvable.</p>
+					<div class="flex flex-wrap gap-2 text-sm font-semibold text-slate-700">
+						<span class="inline-flex items-center rounded-full bg-slate-100 px-3 py-1">Docker</span>
+						<span class="inline-flex items-center rounded-full bg-slate-100 px-3 py-1">CI/CD</span>
+						<span class="inline-flex items-center rounded-full bg-slate-100 px-3 py-1">InfluxDB</span>
+						<span class="inline-flex items-center rounded-full bg-slate-100 px-3 py-1">Grafana</span>
+						<span class="inline-flex items-center rounded-full bg-slate-100 px-3 py-1">Monitoring</span>
+						<span class="inline-flex items-center rounded-full bg-slate-100 px-3 py-1">Runbooks</span>
+					</div>
+				</article>
+			</div>
+		</section>
+
+		<section id="contact" class="rounded-2xl bg-white p-6 lg:p-7 shadow-card border border-slate-100 flex flex-col gap-4 lg:flex-row lg:items-center lg:justify-between">
+			<div>
+				<p class="text-xs font-semibold uppercase tracking-[0.14em] text-brand-700">Let's talk</p>
+				<h2 class="text-2xl font-bold">Ready to ship something solid?</h2>
+				<p class="text-base text-slate-600">Tell me what you need. I'll respond with a clear scope, milestones, and a delivery plan.</p>
+			</div>
+			<div class="flex gap-3 flex-wrap">
+				<a class="inline-flex items-center justify-center gap-2 rounded-xl bg-brand-600 px-4 py-2 text-white font-semibold shadow-card hover:-translate-y-0.5 transition" href="mailto:tachrimantsaad@gmail.com">Book a call</a>
+				<a class="inline-flex items-center justify-center gap-2 rounded-xl border border-slate-200 bg-white px-4 py-2 font-semibold text-slate-700 hover:-translate-y-0.5 hover:border-brand-200 hover:text-brand-700 transition" href="https://www.linkedin.com/in/saad-tachrimant-a00700177/">LinkedIn</a>
+				<a class="inline-flex items-center justify-center gap-2 rounded-xl border border-slate-200 bg-white px-4 py-2 font-semibold text-slate-700 hover:-translate-y-0.5 hover:border-brand-200 hover:text-brand-700 transition" href="https://github.com/tachrimant">GitHub</a>
+			</div>
+		</section>
+
+		<footer class="py-6 text-sm text-slate-500 flex flex-wrap gap-3 items-center justify-between">
+			<span>© 2026 Saad Tachrimant. Built with Tailwind CSS.</span>
+			<div class="flex gap-4 font-semibold">
+				<a class="hover:text-brand-700" href="https://www.linkedin.com/in/saad-tachrimant-a00700177/">LinkedIn</a>
+				<a class="hover:text-brand-700" href="https://github.com/tachrimant">GitHub</a>
+				<a class="hover:text-brand-700" href="mailto:tachrimantsaad@gmail.com">Email</a>
+			</div>
+		</footer>
+	</div>
+</body>
+</html>

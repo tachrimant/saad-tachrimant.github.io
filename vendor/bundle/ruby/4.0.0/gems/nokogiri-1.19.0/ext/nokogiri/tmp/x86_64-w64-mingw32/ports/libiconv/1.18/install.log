@@ -1,0 +1,175 @@
+cd libcharset && make install prefix='C:/Users/Saâd/Desktop/saad-tachrimant.github.io/vendor/bundle/ruby/4.0.0/gems/nokogiri-1.19.0/ports/x64-mingw-ucrt/libiconv/1.18' exec_prefix='C:/Users/Saâd/Desktop/saad-tachrimant.github.io/vendor/bundle/ruby/4.0.0/gems/nokogiri-1.19.0/ports/x64-mingw-ucrt/libiconv/1.18' libdir='C:/Users/Saâd/Desktop/saad-tachrimant.github.io/vendor/bundle/ruby/4.0.0/gems/nokogiri-1.19.0/ports/x64-mingw-ucrt/libiconv/1.18/lib'
+make[1]: Entering directory '/c/Users/Saâd/Desktop/saad-tachrimant.github.io/vendor/bundle/ruby/4.0.0/gems/nokogiri-1.19.0/ext/nokogiri/tmp/x86_64-w64-mingw32/ports/libiconv/1.18/libiconv-1.18/libcharset'
+cd lib && make all
+make[2]: Entering directory '/c/Users/Saâd/Desktop/saad-tachrimant.github.io/vendor/bundle/ruby/4.0.0/gems/nokogiri-1.19.0/ext/nokogiri/tmp/x86_64-w64-mingw32/ports/libiconv/1.18/libiconv-1.18/libcharset/lib'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/c/Users/Saâd/Desktop/saad-tachrimant.github.io/vendor/bundle/ruby/4.0.0/gems/nokogiri-1.19.0/ext/nokogiri/tmp/x86_64-w64-mingw32/ports/libiconv/1.18/libiconv-1.18/libcharset/lib'
+cd lib && make install prefix='C:/Users/Saâd/Desktop/saad-tachrimant.github.io/vendor/bundle/ruby/4.0.0/gems/nokogiri-1.19.0/ports/x64-mingw-ucrt/libiconv/1.18' exec_prefix='C:/Users/Saâd/Desktop/saad-tachrimant.github.io/vendor/bundle/ruby/4.0.0/gems/nokogiri-1.19.0/ports/x64-mingw-ucrt/libiconv/1.18' libdir='C:/Users/Saâd/Desktop/saad-tachrimant.github.io/vendor/bundle/ruby/4.0.0/gems/nokogiri-1.19.0/ports/x64-mingw-ucrt/libiconv/1.18/lib'
+make[2]: Entering directory '/c/Users/Saâd/Desktop/saad-tachrimant.github.io/vendor/bundle/ruby/4.0.0/gems/nokogiri-1.19.0/ext/nokogiri/tmp/x86_64-w64-mingw32/ports/libiconv/1.18/libiconv-1.18/libcharset/lib'
+/bin/sh ../build-aux/mkinstalldirs C:/Users/Saâd/Desktop/saad-tachrimant.github.io/vendor/bundle/ruby/4.0.0/gems/nokogiri-1.19.0/ports/x64-mingw-ucrt/libiconv/1.18/lib ; \
+/bin/sh ../libtool --mode=install /usr/bin/install -c libcharset.la C:/Users/Saâd/Desktop/saad-tachrimant.github.io/vendor/bundle/ruby/4.0.0/gems/nokogiri-1.19.0/ports/x64-mingw-ucrt/libiconv/1.18/lib/libcharset.la
+mkdir -p -- C:/Users/Saâd/Desktop/saad-tachrimant.github.io/vendor/bundle/ruby/4.0.0/gems/nokogiri-1.19.0/ports/x64-mingw-ucrt/libiconv/1.18/lib
+libtool: install: /usr/bin/install -c .libs/libcharset.lai C:/Users/Saâd/Desktop/saad-tachrimant.github.io/vendor/bundle/ruby/4.0.0/gems/nokogiri-1.19.0/ports/x64-mingw-ucrt/libiconv/1.18/lib/libcharset.la
+libtool: install: /usr/bin/install -c .libs/libcharset.a C:/Users/Saâd/Desktop/saad-tachrimant.github.io/vendor/bundle/ruby/4.0.0/gems/nokogiri-1.19.0/ports/x64-mingw-ucrt/libiconv/1.18/lib/libcharset.a
+libtool: install: chmod 644 C:/Users/Saâd/Desktop/saad-tachrimant.github.io/vendor/bundle/ruby/4.0.0/gems/nokogiri-1.19.0/ports/x64-mingw-ucrt/libiconv/1.18/lib/libcharset.a
+libtool: install: ranlib C:/Users/Saâd/Desktop/saad-tachrimant.github.io/vendor/bundle/ruby/4.0.0/gems/nokogiri-1.19.0/ports/x64-mingw-ucrt/libiconv/1.18/lib/libcharset.a
+make[2]: Leaving directory '/c/Users/Saâd/Desktop/saad-tachrimant.github.io/vendor/bundle/ruby/4.0.0/gems/nokogiri-1.19.0/ext/nokogiri/tmp/x86_64-w64-mingw32/ports/libiconv/1.18/libiconv-1.18/libcharset/lib'
+/bin/sh ./build-aux/mkinstalldirs C:/Users/Saâd/Desktop/saad-tachrimant.github.io/vendor/bundle/ruby/4.0.0/gems/nokogiri-1.19.0/ports/x64-mingw-ucrt/libiconv/1.18/include
+mkdir -p -- C:/Users/Saâd/Desktop/saad-tachrimant.github.io/vendor/bundle/ruby/4.0.0/gems/nokogiri-1.19.0/ports/x64-mingw-ucrt/libiconv/1.18/include
+/usr/bin/install -c -m 644 include/libcharset.h.inst C:/Users/Saâd/Desktop/saad-tachrimant.github.io/vendor/bundle/ruby/4.0.0/gems/nokogiri-1.19.0/ports/x64-mingw-ucrt/libiconv/1.18/include/libcharset.h
+/usr/bin/install -c -m 644 include/localcharset.h.inst C:/Users/Saâd/Desktop/saad-tachrimant.github.io/vendor/bundle/ruby/4.0.0/gems/nokogiri-1.19.0/ports/x64-mingw-ucrt/libiconv/1.18/include/localcharset.h
+make[1]: Leaving directory '/c/Users/Saâd/Desktop/saad-tachrimant.github.io/vendor/bundle/ruby/4.0.0/gems/nokogiri-1.19.0/ext/nokogiri/tmp/x86_64-w64-mingw32/ports/libiconv/1.18/libiconv-1.18/libcharset'
+cd lib && make install prefix='C:/Users/Saâd/Desktop/saad-tachrimant.github.io/vendor/bundle/ruby/4.0.0/gems/nokogiri-1.19.0/ports/x64-mingw-ucrt/libiconv/1.18' exec_prefix='C:/Users/Saâd/Desktop/saad-tachrimant.github.io/vendor/bundle/ruby/4.0.0/gems/nokogiri-1.19.0/ports/x64-mingw-ucrt/libiconv/1.18' libdir='C:/Users/Saâd/Desktop/saad-tachrimant.github.io/vendor/bundle/ruby/4.0.0/gems/nokogiri-1.19.0/ports/x64-mingw-ucrt/libiconv/1.18/lib'
+make[1]: Entering directory '/c/Users/Saâd/Desktop/saad-tachrimant.github.io/vendor/bundle/ruby/4.0.0/gems/nokogiri-1.19.0/ext/nokogiri/tmp/x86_64-w64-mingw32/ports/libiconv/1.18/libiconv-1.18/lib'
+if [ ! -d C:/Users/Saâd/Desktop/saad-tachrimant.github.io/vendor/bundle/ruby/4.0.0/gems/nokogiri-1.19.0/ports/x64-mingw-ucrt/libiconv/1.18/lib ] ; then /bin/sh ../build-aux/mkinstalldirs C:/Users/Saâd/Desktop/saad-tachrimant.github.io/vendor/bundle/ruby/4.0.0/gems/nokogiri-1.19.0/ports/x64-mingw-ucrt/libiconv/1.18/lib ; fi
+/bin/sh ../libtool --mode=install /usr/bin/install -c libiconv.la C:/Users/Saâd/Desktop/saad-tachrimant.github.io/vendor/bundle/ruby/4.0.0/gems/nokogiri-1.19.0/ports/x64-mingw-ucrt/libiconv/1.18/lib/libiconv.la
+libtool: install: /usr/bin/install -c .libs/libiconv.lai C:/Users/Saâd/Desktop/saad-tachrimant.github.io/vendor/bundle/ruby/4.0.0/gems/nokogiri-1.19.0/ports/x64-mingw-ucrt/libiconv/1.18/lib/libiconv.la
+libtool: install: /usr/bin/install -c .libs/libiconv.a C:/Users/Saâd/Desktop/saad-tachrimant.github.io/vendor/bundle/ruby/4.0.0/gems/nokogiri-1.19.0/ports/x64-mingw-ucrt/libiconv/1.18/lib/libiconv.a
+libtool: install: chmod 644 C:/Users/Saâd/Desktop/saad-tachrimant.github.io/vendor/bundle/ruby/4.0.0/gems/nokogiri-1.19.0/ports/x64-mingw-ucrt/libiconv/1.18/lib/libiconv.a
+libtool: install: ranlib C:/Users/Saâd/Desktop/saad-tachrimant.github.io/vendor/bundle/ruby/4.0.0/gems/nokogiri-1.19.0/ports/x64-mingw-ucrt/libiconv/1.18/lib/libiconv.a
+case "mingw32" in \
+  aix*) (cd C:/Users/Saâd/Desktop/saad-tachrimant.github.io/vendor/bundle/ruby/4.0.0/gems/nokogiri-1.19.0/ports/x64-mingw-ucrt/libiconv/1.18/lib && \
+         objects=`gcc-ar t libiconv.a`" "`gcc-ar t /lib/libiconv.a` && \
+         gcc-ar x libiconv.a && gcc-ar x /lib/libiconv.a && \
+         gcc-ar q libiconv.new.a $objects && \
+         rm -f $objects && \
+         mv -f libiconv.new.a libiconv.a) ;; \
+esac
+make[1]: Leaving directory '/c/Users/Saâd/Desktop/saad-tachrimant.github.io/vendor/bundle/ruby/4.0.0/gems/nokogiri-1.19.0/ext/nokogiri/tmp/x86_64-w64-mingw32/ports/libiconv/1.18/libiconv-1.18/lib'
+cd srclib && make install prefix='C:/Users/Saâd/Desktop/saad-tachrimant.github.io/vendor/bundle/ruby/4.0.0/gems/nokogiri-1.19.0/ports/x64-mingw-ucrt/libiconv/1.18' exec_prefix='C:/Users/Saâd/Desktop/saad-tachrimant.github.io/vendor/bundle/ruby/4.0.0/gems/nokogiri-1.19.0/ports/x64-mingw-ucrt/libiconv/1.18' libdir='C:/Users/Saâd/Desktop/saad-tachrimant.github.io/vendor/bundle/ruby/4.0.0/gems/nokogiri-1.19.0/ports/x64-mingw-ucrt/libiconv/1.18/lib'
+make[1]: Entering directory '/c/Users/Saâd/Desktop/saad-tachrimant.github.io/vendor/bundle/ruby/4.0.0/gems/nokogiri-1.19.0/ext/nokogiri/tmp/x86_64-w64-mingw32/ports/libiconv/1.18/libiconv-1.18/srclib'
+cd .. && make  am--refresh
+make[2]: Entering directory '/c/Users/Saâd/Desktop/saad-tachrimant.github.io/vendor/bundle/ruby/4.0.0/gems/nokogiri-1.19.0/ext/nokogiri/tmp/x86_64-w64-mingw32/ports/libiconv/1.18/libiconv-1.18'
+make[2]: Nothing to be done for 'am--refresh'.
+make[2]: Leaving directory '/c/Users/Saâd/Desktop/saad-tachrimant.github.io/vendor/bundle/ruby/4.0.0/gems/nokogiri-1.19.0/ext/nokogiri/tmp/x86_64-w64-mingw32/ports/libiconv/1.18/libiconv-1.18'
+make[2]: Entering directory '/c/Users/Saâd/Desktop/saad-tachrimant.github.io/vendor/bundle/ruby/4.0.0/gems/nokogiri-1.19.0/ext/nokogiri/tmp/x86_64-w64-mingw32/ports/libiconv/1.18/libiconv-1.18'
+make[2]: Nothing to be done for 'am--refresh'.
+make[2]: Leaving directory '/c/Users/Saâd/Desktop/saad-tachrimant.github.io/vendor/bundle/ruby/4.0.0/gems/nokogiri-1.19.0/ext/nokogiri/tmp/x86_64-w64-mingw32/ports/libiconv/1.18/libiconv-1.18'
+cd .. && make  am--refresh
+make[2]: Entering directory '/c/Users/Saâd/Desktop/saad-tachrimant.github.io/vendor/bundle/ruby/4.0.0/gems/nokogiri-1.19.0/ext/nokogiri/tmp/x86_64-w64-mingw32/ports/libiconv/1.18/libiconv-1.18'
+make[2]: Nothing to be done for 'am--refresh'.
+make[2]: Leaving directory '/c/Users/Saâd/Desktop/saad-tachrimant.github.io/vendor/bundle/ruby/4.0.0/gems/nokogiri-1.19.0/ext/nokogiri/tmp/x86_64-w64-mingw32/ports/libiconv/1.18/libiconv-1.18'
+make  install-am
+make[2]: Entering directory '/c/Users/Saâd/Desktop/saad-tachrimant.github.io/vendor/bundle/ruby/4.0.0/gems/nokogiri-1.19.0/ext/nokogiri/tmp/x86_64-w64-mingw32/ports/libiconv/1.18/libiconv-1.18/srclib'
+cd .. && make  am--refresh
+make[3]: Entering directory '/c/Users/Saâd/Desktop/saad-tachrimant.github.io/vendor/bundle/ruby/4.0.0/gems/nokogiri-1.19.0/ext/nokogiri/tmp/x86_64-w64-mingw32/ports/libiconv/1.18/libiconv-1.18'
+make[3]: Nothing to be done for 'am--refresh'.
+make[3]: Leaving directory '/c/Users/Saâd/Desktop/saad-tachrimant.github.io/vendor/bundle/ruby/4.0.0/gems/nokogiri-1.19.0/ext/nokogiri/tmp/x86_64-w64-mingw32/ports/libiconv/1.18/libiconv-1.18'
+make[3]: Entering directory '/c/Users/Saâd/Desktop/saad-tachrimant.github.io/vendor/bundle/ruby/4.0.0/gems/nokogiri-1.19.0/ext/nokogiri/tmp/x86_64-w64-mingw32/ports/libiconv/1.18/libiconv-1.18'
+make[3]: Nothing to be done for 'am--refresh'.
+make[3]: Leaving directory '/c/Users/Saâd/Desktop/saad-tachrimant.github.io/vendor/bundle/ruby/4.0.0/gems/nokogiri-1.19.0/ext/nokogiri/tmp/x86_64-w64-mingw32/ports/libiconv/1.18/libiconv-1.18'
+cd .. && make  am--refresh
+make[3]: Entering directory '/c/Users/Saâd/Desktop/saad-tachrimant.github.io/vendor/bundle/ruby/4.0.0/gems/nokogiri-1.19.0/ext/nokogiri/tmp/x86_64-w64-mingw32/ports/libiconv/1.18/libiconv-1.18'
+make[3]: Nothing to be done for 'am--refresh'.
+make[3]: Leaving directory '/c/Users/Saâd/Desktop/saad-tachrimant.github.io/vendor/bundle/ruby/4.0.0/gems/nokogiri-1.19.0/ext/nokogiri/tmp/x86_64-w64-mingw32/ports/libiconv/1.18/libiconv-1.18'
+make[3]: Entering directory '/c/Users/Saâd/Desktop/saad-tachrimant.github.io/vendor/bundle/ruby/4.0.0/gems/nokogiri-1.19.0/ext/nokogiri/tmp/x86_64-w64-mingw32/ports/libiconv/1.18/libiconv-1.18/srclib'
+cd .. && make  am--refresh
+make[4]: Entering directory '/c/Users/Saâd/Desktop/saad-tachrimant.github.io/vendor/bundle/ruby/4.0.0/gems/nokogiri-1.19.0/ext/nokogiri/tmp/x86_64-w64-mingw32/ports/libiconv/1.18/libiconv-1.18'
+make[4]: Nothing to be done for 'am--refresh'.
+make[4]: Leaving directory '/c/Users/Saâd/Desktop/saad-tachrimant.github.io/vendor/bundle/ruby/4.0.0/gems/nokogiri-1.19.0/ext/nokogiri/tmp/x86_64-w64-mingw32/ports/libiconv/1.18/libiconv-1.18'
+make[4]: Entering directory '/c/Users/Saâd/Desktop/saad-tachrimant.github.io/vendor/bundle/ruby/4.0.0/gems/nokogiri-1.19.0/ext/nokogiri/tmp/x86_64-w64-mingw32/ports/libiconv/1.18/libiconv-1.18'
+make[4]: Nothing to be done for 'am--refresh'.
+make[4]: Leaving directory '/c/Users/Saâd/Desktop/saad-tachrimant.github.io/vendor/bundle/ruby/4.0.0/gems/nokogiri-1.19.0/ext/nokogiri/tmp/x86_64-w64-mingw32/ports/libiconv/1.18/libiconv-1.18'
+cd .. && make  am--refresh
+make[4]: Entering directory '/c/Users/Saâd/Desktop/saad-tachrimant.github.io/vendor/bundle/ruby/4.0.0/gems/nokogiri-1.19.0/ext/nokogiri/tmp/x86_64-w64-mingw32/ports/libiconv/1.18/libiconv-1.18'
+make[4]: Nothing to be done for 'am--refresh'.
+make[4]: Leaving directory '/c/Users/Saâd/Desktop/saad-tachrimant.github.io/vendor/bundle/ruby/4.0.0/gems/nokogiri-1.19.0/ext/nokogiri/tmp/x86_64-w64-mingw32/ports/libiconv/1.18/libiconv-1.18'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/c/Users/Saâd/Desktop/saad-tachrimant.github.io/vendor/bundle/ruby/4.0.0/gems/nokogiri-1.19.0/ext/nokogiri/tmp/x86_64-w64-mingw32/ports/libiconv/1.18/libiconv-1.18/srclib'
+make[2]: Leaving directory '/c/Users/Saâd/Desktop/saad-tachrimant.github.io/vendor/bundle/ruby/4.0.0/gems/nokogiri-1.19.0/ext/nokogiri/tmp/x86_64-w64-mingw32/ports/libiconv/1.18/libiconv-1.18/srclib'
+make[1]: Leaving directory '/c/Users/Saâd/Desktop/saad-tachrimant.github.io/vendor/bundle/ruby/4.0.0/gems/nokogiri-1.19.0/ext/nokogiri/tmp/x86_64-w64-mingw32/ports/libiconv/1.18/libiconv-1.18/srclib'
+cd src && make install prefix='C:/Users/Saâd/Desktop/saad-tachrimant.github.io/vendor/bundle/ruby/4.0.0/gems/nokogiri-1.19.0/ports/x64-mingw-ucrt/libiconv/1.18' exec_prefix='C:/Users/Saâd/Desktop/saad-tachrimant.github.io/vendor/bundle/ruby/4.0.0/gems/nokogiri-1.19.0/ports/x64-mingw-ucrt/libiconv/1.18' libdir='C:/Users/Saâd/Desktop/saad-tachrimant.github.io/vendor/bundle/ruby/4.0.0/gems/nokogiri-1.19.0/ports/x64-mingw-ucrt/libiconv/1.18/lib'
+make[1]: Entering directory '/c/Users/Saâd/Desktop/saad-tachrimant.github.io/vendor/bundle/ruby/4.0.0/gems/nokogiri-1.19.0/ext/nokogiri/tmp/x86_64-w64-mingw32/ports/libiconv/1.18/libiconv-1.18/src'
+test `ls -ld . | sed -e 's/^d\(.........\).*/\1/'` = rwxrwxrwx || chmod 777 .
+if [ ! -d C:/Users/Saâd/Desktop/saad-tachrimant.github.io/vendor/bundle/ruby/4.0.0/gems/nokogiri-1.19.0/ports/x64-mingw-ucrt/libiconv/1.18/bin ] ; then /bin/sh ../build-aux/mkinstalldirs C:/Users/Saâd/Desktop/saad-tachrimant.github.io/vendor/bundle/ruby/4.0.0/gems/nokogiri-1.19.0/ports/x64-mingw-ucrt/libiconv/1.18/bin ; fi
+mkdir -p -- C:/Users/Saâd/Desktop/saad-tachrimant.github.io/vendor/bundle/ruby/4.0.0/gems/nokogiri-1.19.0/ports/x64-mingw-ucrt/libiconv/1.18/bin
+case "mingw32" in \
+  hpux*) gcc  -O2 -g -fPIC `if test -n ''; then  C:/Users/Saâd/Desktop/saad-tachrimant.github.io/vendor/bundle/ruby/4.0.0/gems/nokogiri-1.19.0/ports/x64-mingw-ucrt/libiconv/1.18/bin; fi` iconv.o ../srclib/libicrt.a -LC:/Users/Saâd/Desktop/saad-tachrimant.github.io/vendor/bundle/ruby/4.0.0/gems/nokogiri-1.19.0/ports/x64-mingw-ucrt/libiconv/1.18/lib -liconv -lintl iconv.res `if test -n ''; then echo " -Wl,+b -Wl,C:/Users/Saâd/Desktop/saad-tachrimant.github.io/vendor/bundle/ruby/4.0.0/gems/nokogiri-1.19.0/ports/x64-mingw-ucrt/libiconv/1.18/lib"; fi` -o iconv.exe;; \
+  *) /bin/sh ../libtool --mode=link gcc  -O2 -g -fPIC `if test -n ''; then  C:/Users/Saâd/Desktop/saad-tachrimant.github.io/vendor/bundle/ruby/4.0.0/gems/nokogiri-1.19.0/ports/x64-mingw-ucrt/libiconv/1.18/bin; fi` iconv.o ../srclib/libicrt.a -lintl C:/Users/Saâd/Desktop/saad-tachrimant.github.io/vendor/bundle/ruby/4.0.0/gems/nokogiri-1.19.0/ports/x64-mingw-ucrt/libiconv/1.18/lib/libiconv.la iconv.res -o iconv.exe;; \
+esac
+libtool: link: gcc -O2 -g -fPIC iconv.o iconv.res -o iconv.exe  ../srclib/libicrt.a -lintl C:/Users/Saâd/Desktop/saad-tachrimant.github.io/vendor/bundle/ruby/4.0.0/gems/nokogiri-1.19.0/ports/x64-mingw-ucrt/libiconv/1.18/lib/libiconv.a
+/bin/sh ../libtool --mode=install /usr/bin/install -c iconv.exe C:/Users/Saâd/Desktop/saad-tachrimant.github.io/vendor/bundle/ruby/4.0.0/gems/nokogiri-1.19.0/ports/x64-mingw-ucrt/libiconv/1.18/bin/iconv.exe
+libtool: install: /usr/bin/install -c iconv.exe C:/Users/Saâd/Desktop/saad-tachrimant.github.io/vendor/bundle/ruby/4.0.0/gems/nokogiri-1.19.0/ports/x64-mingw-ucrt/libiconv/1.18/bin/iconv.exe
+make[1]: Leaving directory '/c/Users/Saâd/Desktop/saad-tachrimant.github.io/vendor/bundle/ruby/4.0.0/gems/nokogiri-1.19.0/ext/nokogiri/tmp/x86_64-w64-mingw32/ports/libiconv/1.18/libiconv-1.18/src'
+if [ ! -d C:/Users/Saâd/Desktop/saad-tachrimant.github.io/vendor/bundle/ruby/4.0.0/gems/nokogiri-1.19.0/ports/x64-mingw-ucrt/libiconv/1.18/include ] ; then /bin/sh ./build-aux/mkinstalldirs C:/Users/Saâd/Desktop/saad-tachrimant.github.io/vendor/bundle/ruby/4.0.0/gems/nokogiri-1.19.0/ports/x64-mingw-ucrt/libiconv/1.18/include ; fi
+/usr/bin/install -c -m 644 include/iconv.h.inst C:/Users/Saâd/Desktop/saad-tachrimant.github.io/vendor/bundle/ruby/4.0.0/gems/nokogiri-1.19.0/ports/x64-mingw-ucrt/libiconv/1.18/include/iconv.h
+cd po && make install prefix='C:/Users/Saâd/Desktop/saad-tachrimant.github.io/vendor/bundle/ruby/4.0.0/gems/nokogiri-1.19.0/ports/x64-mingw-ucrt/libiconv/1.18' exec_prefix='C:/Users/Saâd/Desktop/saad-tachrimant.github.io/vendor/bundle/ruby/4.0.0/gems/nokogiri-1.19.0/ports/x64-mingw-ucrt/libiconv/1.18' datarootdir='C:/Users/Saâd/Desktop/saad-tachrimant.github.io/vendor/bundle/ruby/4.0.0/gems/nokogiri-1.19.0/ports/x64-mingw-ucrt/libiconv/1.18/share' datadir='C:/Users/Saâd/Desktop/saad-tachrimant.github.io/vendor/bundle/ruby/4.0.0/gems/nokogiri-1.19.0/ports/x64-mingw-ucrt/libiconv/1.18/share'
+make[1]: Entering directory '/c/Users/Saâd/Desktop/saad-tachrimant.github.io/vendor/bundle/ruby/4.0.0/gems/nokogiri-1.19.0/ext/nokogiri/tmp/x86_64-w64-mingw32/ports/libiconv/1.18/libiconv-1.18/po'
+installing af.gmo as C:/Users/Saâd/Desktop/saad-tachrimant.github.io/vendor/bundle/ruby/4.0.0/gems/nokogiri-1.19.0/ports/x64-mingw-ucrt/libiconv/1.18/share/locale/af/LC_MESSAGES/libiconv.mo
+installing be.gmo as C:/Users/Saâd/Desktop/saad-tachrimant.github.io/vendor/bundle/ruby/4.0.0/gems/nokogiri-1.19.0/ports/x64-mingw-ucrt/libiconv/1.18/share/locale/be/LC_MESSAGES/libiconv.mo
+installing bg.gmo as C:/Users/Saâd/Desktop/saad-tachrimant.github.io/vendor/bundle/ruby/4.0.0/gems/nokogiri-1.19.0/ports/x64-mingw-ucrt/libiconv/1.18/share/locale/bg/LC_MESSAGES/libiconv.mo
+installing ca.gmo as C:/Users/Saâd/Desktop/saad-tachrimant.github.io/vendor/bundle/ruby/4.0.0/gems/nokogiri-1.19.0/ports/x64-mingw-ucrt/libiconv/1.18/share/locale/ca/LC_MESSAGES/libiconv.mo
+installing cs.gmo as C:/Users/Saâd/Desktop/saad-tachrimant.github.io/vendor/bundle/ruby/4.0.0/gems/nokogiri-1.19.0/ports/x64-mingw-ucrt/libiconv/1.18/share/locale/cs/LC_MESSAGES/libiconv.mo
+installing da.gmo as C:/Users/Saâd/Desktop/saad-tachrimant.github.io/vendor/bundle/ruby/4.0.0/gems/nokogiri-1.19.0/ports/x64-mingw-ucrt/libiconv/1.18/share/locale/da/LC_MESSAGES/libiconv.mo
+installing de.gmo as C:/Users/Saâd/Desktop/saad-tachrimant.github.io/vendor/bundle/ruby/4.0.0/gems/nokogiri-1.19.0/ports/x64-mingw-ucrt/libiconv/1.18/share/locale/de/LC_MESSAGES/libiconv.mo
+installing el.gmo as C:/Users/Saâd/Desktop/saad-tachrimant.github.io/vendor/bundle/ruby/4.0.0/gems/nokogiri-1.19.0/ports/x64-mingw-ucrt/libiconv/1.18/share/locale/el/LC_MESSAGES/libiconv.mo
+installing eo.gmo as C:/Users/Saâd/Desktop/saad-tachrimant.github.io/vendor/bundle/ruby/4.0.0/gems/nokogiri-1.19.0/ports/x64-mingw-ucrt/libiconv/1.18/share/locale/eo/LC_MESSAGES/libiconv.mo
+installing es.gmo as C:/Users/Saâd/Desktop/saad-tachrimant.github.io/vendor/bundle/ruby/4.0.0/gems/nokogiri-1.19.0/ports/x64-mingw-ucrt/libiconv/1.18/share/locale/es/LC_MESSAGES/libiconv.mo
+installing et.gmo as C:/Users/Saâd/Desktop/saad-tachrimant.github.io/vendor/bundle/ruby/4.0.0/gems/nokogiri-1.19.0/ports/x64-mingw-ucrt/libiconv/1.18/share/locale/et/LC_MESSAGES/libiconv.mo
+installing fi.gmo as C:/Users/Saâd/Desktop/saad-tachrimant.github.io/vendor/bundle/ruby/4.0.0/gems/nokogiri-1.19.0/ports/x64-mingw-ucrt/libiconv/1.18/share/locale/fi/LC_MESSAGES/libiconv.mo
+installing fr.gmo as C:/Users/Saâd/Desktop/saad-tachrimant.github.io/vendor/bundle/ruby/4.0.0/gems/nokogiri-1.19.0/ports/x64-mingw-ucrt/libiconv/1.18/share/locale/fr/LC_MESSAGES/libiconv.mo
+installing ga.gmo as C:/Users/Saâd/Desktop/saad-tachrimant.github.io/vendor/bundle/ruby/4.0.0/gems/nokogiri-1.19.0/ports/x64-mingw-ucrt/libiconv/1.18/share/locale/ga/LC_MESSAGES/libiconv.mo
+installing gl.gmo as C:/Users/Saâd/Desktop/saad-tachrimant.github.io/vendor/bundle/ruby/4.0.0/gems/nokogiri-1.19.0/ports/x64-mingw-ucrt/libiconv/1.18/share/locale/gl/LC_MESSAGES/libiconv.mo
+installing hr.gmo as C:/Users/Saâd/Desktop/saad-tachrimant.github.io/vendor/bundle/ruby/4.0.0/gems/nokogiri-1.19.0/ports/x64-mingw-ucrt/libiconv/1.18/share/locale/hr/LC_MESSAGES/libiconv.mo
+installing hu.gmo as C:/Users/Saâd/Desktop/saad-tachrimant.github.io/vendor/bundle/ruby/4.0.0/gems/nokogiri-1.19.0/ports/x64-mingw-ucrt/libiconv/1.18/share/locale/hu/LC_MESSAGES/libiconv.mo
+installing id.gmo as C:/Users/Saâd/Desktop/saad-tachrimant.github.io/vendor/bundle/ruby/4.0.0/gems/nokogiri-1.19.0/ports/x64-mingw-ucrt/libiconv/1.18/share/locale/id/LC_MESSAGES/libiconv.mo
+installing it.gmo as C:/Users/Saâd/Desktop/saad-tachrimant.github.io/vendor/bundle/ruby/4.0.0/gems/nokogiri-1.19.0/ports/x64-mingw-ucrt/libiconv/1.18/share/locale/it/LC_MESSAGES/libiconv.mo
+installing ja.gmo as C:/Users/Saâd/Desktop/saad-tachrimant.github.io/vendor/bundle/ruby/4.0.0/gems/nokogiri-1.19.0/ports/x64-mingw-ucrt/libiconv/1.18/share/locale/ja/LC_MESSAGES/libiconv.mo
+installing ka.gmo as C:/Users/Saâd/Desktop/saad-tachrimant.github.io/vendor/bundle/ruby/4.0.0/gems/nokogiri-1.19.0/ports/x64-mingw-ucrt/libiconv/1.18/share/locale/ka/LC_MESSAGES/libiconv.mo
+installing ko.gmo as C:/Users/Saâd/Desktop/saad-tachrimant.github.io/vendor/bundle/ruby/4.0.0/gems/nokogiri-1.19.0/ports/x64-mingw-ucrt/libiconv/1.18/share/locale/ko/LC_MESSAGES/libiconv.mo
+installing lt.gmo as C:/Users/Saâd/Desktop/saad-tachrimant.github.io/vendor/bundle/ruby/4.0.0/gems/nokogiri-1.19.0/ports/x64-mingw-ucrt/libiconv/1.18/share/locale/lt/LC_MESSAGES/libiconv.mo
+installing nl.gmo as C:/Users/Saâd/Desktop/saad-tachrimant.github.io/vendor/bundle/ruby/4.0.0/gems/nokogiri-1.19.0/ports/x64-mingw-ucrt/libiconv/1.18/share/locale/nl/LC_MESSAGES/libiconv.mo
+installing pl.gmo as C:/Users/Saâd/Desktop/saad-tachrimant.github.io/vendor/bundle/ruby/4.0.0/gems/nokogiri-1.19.0/ports/x64-mingw-ucrt/libiconv/1.18/share/locale/pl/LC_MESSAGES/libiconv.mo
+installing pt_BR.gmo as C:/Users/Saâd/Desktop/saad-tachrimant.github.io/vendor/bundle/ruby/4.0.0/gems/nokogiri-1.19.0/ports/x64-mingw-ucrt/libiconv/1.18/share/locale/pt_BR/LC_MESSAGES/libiconv.mo
+installing rm.gmo as C:/Users/Saâd/Desktop/saad-tachrimant.github.io/vendor/bundle/ruby/4.0.0/gems/nokogiri-1.19.0/ports/x64-mingw-ucrt/libiconv/1.18/share/locale/rm/LC_MESSAGES/libiconv.mo
+installing ro.gmo as C:/Users/Saâd/Desktop/saad-tachrimant.github.io/vendor/bundle/ruby/4.0.0/gems/nokogiri-1.19.0/ports/x64-mingw-ucrt/libiconv/1.18/share/locale/ro/LC_MESSAGES/libiconv.mo
+installing ru.gmo as C:/Users/Saâd/Desktop/saad-tachrimant.github.io/vendor/bundle/ruby/4.0.0/gems/nokogiri-1.19.0/ports/x64-mingw-ucrt/libiconv/1.18/share/locale/ru/LC_MESSAGES/libiconv.mo
+installing sk.gmo as C:/Users/Saâd/Desktop/saad-tachrimant.github.io/vendor/bundle/ruby/4.0.0/gems/nokogiri-1.19.0/ports/x64-mingw-ucrt/libiconv/1.18/share/locale/sk/LC_MESSAGES/libiconv.mo
+installing sl.gmo as C:/Users/Saâd/Desktop/saad-tachrimant.github.io/vendor/bundle/ruby/4.0.0/gems/nokogiri-1.19.0/ports/x64-mingw-ucrt/libiconv/1.18/share/locale/sl/LC_MESSAGES/libiconv.mo
+installing sq.gmo as C:/Users/Saâd/Desktop/saad-tachrimant.github.io/vendor/bundle/ruby/4.0.0/gems/nokogiri-1.19.0/ports/x64-mingw-ucrt/libiconv/1.18/share/locale/sq/LC_MESSAGES/libiconv.mo
+installing sr.gmo as C:/Users/Saâd/Desktop/saad-tachrimant.github.io/vendor/bundle/ruby/4.0.0/gems/nokogiri-1.19.0/ports/x64-mingw-ucrt/libiconv/1.18/share/locale/sr/LC_MESSAGES/libiconv.mo
+installing sv.gmo as C:/Users/Saâd/Desktop/saad-tachrimant.github.io/vendor/bundle/ruby/4.0.0/gems/nokogiri-1.19.0/ports/x64-mingw-ucrt/libiconv/1.18/share/locale/sv/LC_MESSAGES/libiconv.mo
+installing tr.gmo as C:/Users/Saâd/Desktop/saad-tachrimant.github.io/vendor/bundle/ruby/4.0.0/gems/nokogiri-1.19.0/ports/x64-mingw-ucrt/libiconv/1.18/share/locale/tr/LC_MESSAGES/libiconv.mo
+installing uk.gmo as C:/Users/Saâd/Desktop/saad-tachrimant.github.io/vendor/bundle/ruby/4.0.0/gems/nokogiri-1.19.0/ports/x64-mingw-ucrt/libiconv/1.18/share/locale/uk/LC_MESSAGES/libiconv.mo
+installing vi.gmo as C:/Users/Saâd/Desktop/saad-tachrimant.github.io/vendor/bundle/ruby/4.0.0/gems/nokogiri-1.19.0/ports/x64-mingw-ucrt/libiconv/1.18/share/locale/vi/LC_MESSAGES/libiconv.mo
+installing wa.gmo as C:/Users/Saâd/Desktop/saad-tachrimant.github.io/vendor/bundle/ruby/4.0.0/gems/nokogiri-1.19.0/ports/x64-mingw-ucrt/libiconv/1.18/share/locale/wa/LC_MESSAGES/libiconv.mo
+installing zh_CN.gmo as C:/Users/Saâd/Desktop/saad-tachrimant.github.io/vendor/bundle/ruby/4.0.0/gems/nokogiri-1.19.0/ports/x64-mingw-ucrt/libiconv/1.18/share/locale/zh_CN/LC_MESSAGES/libiconv.mo
+installing zh_TW.gmo as C:/Users/Saâd/Desktop/saad-tachrimant.github.io/vendor/bundle/ruby/4.0.0/gems/nokogiri-1.19.0/ports/x64-mingw-ucrt/libiconv/1.18/share/locale/zh_TW/LC_MESSAGES/libiconv.mo
+if test "libiconv" = "gettext-tools"; then \
+  /usr/bin/mkdir -p C:/Users/Saâd/Desktop/saad-tachrimant.github.io/vendor/bundle/ruby/4.0.0/gems/nokogiri-1.19.0/ports/x64-mingw-ucrt/libiconv/1.18/share/gettext/po; \
+  for file in Makefile.in.in remove-potcdate.sed quot.sed boldquot.sed en@quot.header en@boldquot.header insert-header.sed Rules-quot   Makevars.template; do \
+    /usr/bin/install -c -m 644 ./$file \
+		    C:/Users/Saâd/Desktop/saad-tachrimant.github.io/vendor/bundle/ruby/4.0.0/gems/nokogiri-1.19.0/ports/x64-mingw-ucrt/libiconv/1.18/share/gettext/po/$file; \
+  done; \
+  for file in Makevars; do \
+    rm -f C:/Users/Saâd/Desktop/saad-tachrimant.github.io/vendor/bundle/ruby/4.0.0/gems/nokogiri-1.19.0/ports/x64-mingw-ucrt/libiconv/1.18/share/gettext/po/$file; \
+  done; \
+else \
+  : ; \
+fi
+make[1]: Leaving directory '/c/Users/Saâd/Desktop/saad-tachrimant.github.io/vendor/bundle/ruby/4.0.0/gems/nokogiri-1.19.0/ext/nokogiri/tmp/x86_64-w64-mingw32/ports/libiconv/1.18/libiconv-1.18/po'
+cd man && make install prefix='C:/Users/Saâd/Desktop/saad-tachrimant.github.io/vendor/bundle/ruby/4.0.0/gems/nokogiri-1.19.0/ports/x64-mingw-ucrt/libiconv/1.18' exec_prefix='C:/Users/Saâd/Desktop/saad-tachrimant.github.io/vendor/bundle/ruby/4.0.0/gems/nokogiri-1.19.0/ports/x64-mingw-ucrt/libiconv/1.18' datarootdir='C:/Users/Saâd/Desktop/saad-tachrimant.github.io/vendor/bundle/ruby/4.0.0/gems/nokogiri-1.19.0/ports/x64-mingw-ucrt/libiconv/1.18/share' datadir='C:/Users/Saâd/Desktop/saad-tachrimant.github.io/vendor/bundle/ruby/4.0.0/gems/nokogiri-1.19.0/ports/x64-mingw-ucrt/libiconv/1.18/share' mandir='C:/Users/Saâd/Desktop/saad-tachrimant.github.io/vendor/bundle/ruby/4.0.0/gems/nokogiri-1.19.0/ports/x64-mingw-ucrt/libiconv/1.18/share/man'
+make[1]: Entering directory '/c/Users/Saâd/Desktop/saad-tachrimant.github.io/vendor/bundle/ruby/4.0.0/gems/nokogiri-1.19.0/ext/nokogiri/tmp/x86_64-w64-mingw32/ports/libiconv/1.18/libiconv-1.18/man'
+if [ ! -d C:/Users/Saâd/Desktop/saad-tachrimant.github.io/vendor/bundle/ruby/4.0.0/gems/nokogiri-1.19.0/ports/x64-mingw-ucrt/libiconv/1.18/share/man/man1 ] ; then /bin/sh ../build-aux/mkinstalldirs C:/Users/Saâd/Desktop/saad-tachrimant.github.io/vendor/bundle/ruby/4.0.0/gems/nokogiri-1.19.0/ports/x64-mingw-ucrt/libiconv/1.18/share/man/man1 ; fi
+mkdir -p -- C:/Users/Saâd/Desktop/saad-tachrimant.github.io/vendor/bundle/ruby/4.0.0/gems/nokogiri-1.19.0/ports/x64-mingw-ucrt/libiconv/1.18/share/man/man1
+builddir="`pwd`"; cd . && for f in *.1 ; do (cd "$builddir"; echo /usr/bin/install -c -m 644 ./$f C:/Users/Saâd/Desktop/saad-tachrimant.github.io/vendor/bundle/ruby/4.0.0/gems/nokogiri-1.19.0/ports/x64-mingw-ucrt/libiconv/1.18/share/man/man1/$f ; /usr/bin/install -c -m 644 ./$f C:/Users/Saâd/Desktop/saad-tachrimant.github.io/vendor/bundle/ruby/4.0.0/gems/nokogiri-1.19.0/ports/x64-mingw-ucrt/libiconv/1.18/share/man/man1/$f) ; done
+/usr/bin/install -c -m 644 ./iconv.1 C:/Users/Saâd/Desktop/saad-tachrimant.github.io/vendor/bundle/ruby/4.0.0/gems/nokogiri-1.19.0/ports/x64-mingw-ucrt/libiconv/1.18/share/man/man1/iconv.1
+if [ ! -d C:/Users/Saâd/Desktop/saad-tachrimant.github.io/vendor/bundle/ruby/4.0.0/gems/nokogiri-1.19.0/ports/x64-mingw-ucrt/libiconv/1.18/share/man/man3 ] ; then /bin/sh ../build-aux/mkinstalldirs C:/Users/Saâd/Desktop/saad-tachrimant.github.io/vendor/bundle/ruby/4.0.0/gems/nokogiri-1.19.0/ports/x64-mingw-ucrt/libiconv/1.18/share/man/man3 ; fi
+mkdir -p -- C:/Users/Saâd/Desktop/saad-tachrimant.github.io/vendor/bundle/ruby/4.0.0/gems/nokogiri-1.19.0/ports/x64-mingw-ucrt/libiconv/1.18/share/man/man3
+builddir="`pwd`"; cd . && for f in *.3 ; do (cd "$builddir"; echo /usr/bin/install -c -m 644 ./$f C:/Users/Saâd/Desktop/saad-tachrimant.github.io/vendor/bundle/ruby/4.0.0/gems/nokogiri-1.19.0/ports/x64-mingw-ucrt/libiconv/1.18/share/man/man3/$f ; /usr/bin/install -c -m 644 ./$f C:/Users/Saâd/Desktop/saad-tachrimant.github.io/vendor/bundle/ruby/4.0.0/gems/nokogiri-1.19.0/ports/x64-mingw-ucrt/libiconv/1.18/share/man/man3/$f) ; done
+/usr/bin/install -c -m 644 ./iconv.3 C:/Users/Saâd/Desktop/saad-tachrimant.github.io/vendor/bundle/ruby/4.0.0/gems/nokogiri-1.19.0/ports/x64-mingw-ucrt/libiconv/1.18/share/man/man3/iconv.3
+/usr/bin/install -c -m 644 ./iconv_close.3 C:/Users/Saâd/Desktop/saad-tachrimant.github.io/vendor/bundle/ruby/4.0.0/gems/nokogiri-1.19.0/ports/x64-mingw-ucrt/libiconv/1.18/share/man/man3/iconv_close.3
+/usr/bin/install -c -m 644 ./iconv_open.3 C:/Users/Saâd/Desktop/saad-tachrimant.github.io/vendor/bundle/ruby/4.0.0/gems/nokogiri-1.19.0/ports/x64-mingw-ucrt/libiconv/1.18/share/man/man3/iconv_open.3
+/usr/bin/install -c -m 644 ./iconv_open_into.3 C:/Users/Saâd/Desktop/saad-tachrimant.github.io/vendor/bundle/ruby/4.0.0/gems/nokogiri-1.19.0/ports/x64-mingw-ucrt/libiconv/1.18/share/man/man3/iconv_open_into.3
+/usr/bin/install -c -m 644 ./iconvctl.3 C:/Users/Saâd/Desktop/saad-tachrimant.github.io/vendor/bundle/ruby/4.0.0/gems/nokogiri-1.19.0/ports/x64-mingw-ucrt/libiconv/1.18/share/man/man3/iconvctl.3
+if [ ! -d C:/Users/Saâd/Desktop/saad-tachrimant.github.io/vendor/bundle/ruby/4.0.0/gems/nokogiri-1.19.0/ports/x64-mingw-ucrt/libiconv/1.18/share/doc/ ] ; then /bin/sh ../build-aux/mkinstalldirs C:/Users/Saâd/Desktop/saad-tachrimant.github.io/vendor/bundle/ruby/4.0.0/gems/nokogiri-1.19.0/ports/x64-mingw-ucrt/libiconv/1.18/share/doc/ ; fi
+mkdir -p -- C:/Users/Saâd/Desktop/saad-tachrimant.github.io/vendor/bundle/ruby/4.0.0/gems/nokogiri-1.19.0/ports/x64-mingw-ucrt/libiconv/1.18/share/doc/
+builddir="`pwd`"; cd . && for f in *.html ; do (cd "$builddir"; echo /usr/bin/install -c -m 644 ./$f C:/Users/Saâd/Desktop/saad-tachrimant.github.io/vendor/bundle/ruby/4.0.0/gems/nokogiri-1.19.0/ports/x64-mingw-ucrt/libiconv/1.18/share/doc//$f ; /usr/bin/install -c -m 644 ./$f C:/Users/Saâd/Desktop/saad-tachrimant.github.io/vendor/bundle/ruby/4.0.0/gems/nokogiri-1.19.0/ports/x64-mingw-ucrt/libiconv/1.18/share/doc//$f) ; done
+/usr/bin/install -c -m 644 ./iconv.1.html C:/Users/Saâd/Desktop/saad-tachrimant.github.io/vendor/bundle/ruby/4.0.0/gems/nokogiri-1.19.0/ports/x64-mingw-ucrt/libiconv/1.18/share/doc//iconv.1.html
+/usr/bin/install -c -m 644 ./iconv.3.html C:/Users/Saâd/Desktop/saad-tachrimant.github.io/vendor/bundle/ruby/4.0.0/gems/nokogiri-1.19.0/ports/x64-mingw-ucrt/libiconv/1.18/share/doc//iconv.3.html
+/usr/bin/install -c -m 644 ./iconv_close.3.html C:/Users/Saâd/Desktop/saad-tachrimant.github.io/vendor/bundle/ruby/4.0.0/gems/nokogiri-1.19.0/ports/x64-mingw-ucrt/libiconv/1.18/share/doc//iconv_close.3.html
+/usr/bin/install -c -m 644 ./iconv_open.3.html C:/Users/Saâd/Desktop/saad-tachrimant.github.io/vendor/bundle/ruby/4.0.0/gems/nokogiri-1.19.0/ports/x64-mingw-ucrt/libiconv/1.18/share/doc//iconv_open.3.html
+/usr/bin/install -c -m 644 ./iconv_open_into.3.html C:/Users/Saâd/Desktop/saad-tachrimant.github.io/vendor/bundle/ruby/4.0.0/gems/nokogiri-1.19.0/ports/x64-mingw-ucrt/libiconv/1.18/share/doc//iconv_open_into.3.html
+/usr/bin/install -c -m 644 ./iconvctl.3.html C:/Users/Saâd/Desktop/saad-tachrimant.github.io/vendor/bundle/ruby/4.0.0/gems/nokogiri-1.19.0/ports/x64-mingw-ucrt/libiconv/1.18/share/doc//iconvctl.3.html
+make[1]: Leaving directory '/c/Users/Saâd/Desktop/saad-tachrimant.github.io/vendor/bundle/ruby/4.0.0/gems/nokogiri-1.19.0/ext/nokogiri/tmp/x86_64-w64-mingw32/ports/libiconv/1.18/libiconv-1.18/man'
